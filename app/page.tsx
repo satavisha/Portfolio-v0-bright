@@ -169,14 +169,15 @@ export default function Portfolio() {
 
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                 <p>
-                  I am a dedicated professional with a passion for innovation and excellence. My journey has been shaped
-                  by diverse experiences that have equipped me with a unique perspective on problem-solving and creative
-                  thinking.
+                  I am a developer turned Product Manager, a Tribal Fusion Belly Dancer and a mythology nerd!
+                </p> <p>
+Raised in a culturally rich home with an Indian Classical singer mother, I was immersed in the arts early—dabbling in everything from painting to piano—but it was dance that truly moved me.
+                </p><p>
+Since discovering Tribal Fusion in 2016, my journey has taken me across India and beyond—learning, performing, and teaching. TFBD feels like a magical forest I’m still at the periphery! There’s a lot to explore, a lot to learn! 
+                </p><p>
+Outside dance, I’m a mythology nerd, a huge fan of Devdutt Pattanaik’s work , and I like to illustrate stories.
                 </p>
-                <p>
-                  With a strong foundation in both technical and creative disciplines, I thrive in collaborative
-                  environments where I can contribute to meaningful projects that make a difference.
-                </p>
+                
               </div>
 
               <div className="flex flex-wrap gap-3">
