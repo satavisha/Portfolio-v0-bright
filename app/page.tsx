@@ -248,7 +248,7 @@ export default function Portfolio() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/*{[1, 2, 3, 4, 5, 6].map((item) => (
+            {[1, 2, 3, 4, 5, 6].map((item) => (
               <Card
                 key={item}
                 className="group hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2 border-0 shadow-lg"
@@ -261,7 +261,7 @@ export default function Portfolio() {
                 </div>
                 <CardHeader>
                   <CardTitle className="text-xl font-bold text-gray-900">Project {item}</CardTitle>
-                  */}
+                  
                   <CardDescription className="text-gray-600">
                     A comprehensive solution that addresses key challenges
                   </CardDescription>
