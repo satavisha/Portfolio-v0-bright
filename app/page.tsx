@@ -13,7 +13,7 @@ export default function Portfolio() {
   useEffect(() => {
     setIsVisible(true)
   }, [])
-const projects = [
+  const projects = [
     {
       title: "OTT For Bharat",
       description: "An OTT platform for infotainment in regional languages",
@@ -108,16 +108,6 @@ const projects = [
                   DANCE EDUCATOR
                 </h2>
               </div>
-
-              {/*
-              <div className="flex flex-wrap items-center gap-4 text-lg font-semibold text-gray-900">
-                <span>DESIGN</span>
-                <Star className="h-4 w-4 text-orange-500" />
-                <span>DEVELOPMENT</span>
-                <Star className="h-4 w-4 text-orange-500" />
-                <span>STRATEGY</span>
-              </div>
-              */}
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
@@ -279,67 +269,31 @@ const projects = [
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* {[1, 2, 3, 4, 5, 6].map((item) => (
-              <Card
-                key={item}
-                className="group hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2 border-0 shadow-lg"
-              >
-                <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 relative overflow-hidden">
-                  <div className="absolute inset-0 bg-orange-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <ExternalLink className="h-5 w-5 text-orange-500" />
+            {projects.map((project, index) => (
+              <a key={index} href={project.link} target="_blank" rel="noopener noreferrer" className="block">
+                <Card className="group hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2 border-0 shadow-lg cursor-pointer">
+                  <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 relative overflow-hidden">
+                    <div className="absolute inset-0 bg-orange-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <ExternalLink className="h-5 w-5 text-orange-500" />
+                    </div>
                   </div>
-                </div>
-                <CardHeader>
-                  <CardTitle className="text-xl font-bold text-gray-900">Project {item}</CardTitle>
-                  <CardDescription className="text-gray-600">
-                    A comprehensive solution that addresses key challenges
-                  </CardDescription>
-                </CardHeader>
-                <=.>
-                  <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary" className="bg-orange-100 text-orange-700">
-                      Design
-                    </Badge>
-                    <Badge variant="secondary" className="bg-orange-100 text-orange-700">
-                      Development
-                    </Badge>
-                  </div>
-                </CardContent>
-              </Card> */}
-              {projects.map((project, index) => (
-  <a
-    key={index}
-    href={project.link}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="block"
-  >
-    <Card className="group hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2 border-0 shadow-lg cursor-pointer">
-      <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 relative overflow-hidden">
-        <div className="absolute inset-0 bg-orange-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-        <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <ExternalLink className="h-5 w-5 text-orange-500" />
-        </div>
-      </div>
-      <CardHeader>
-        <CardTitle className="text-xl font-bold text-gray-900">{project.title}</CardTitle>
-        <CardDescription className="text-gray-600">{project.description}</CardDescription>
-      </CardHeader>
-      <CardContent>
-        <div className="flex flex-wrap gap-2">
-          <Badge variant="secondary" className="bg-orange-100 text-orange-700">
-            Design
-          </Badge>
-          <Badge variant="secondary" className="bg-orange-100 text-orange-700">
-            Development
-          </Badge>
-        </div>
-      </CardContent>
-    </Card>
-  </a>
-))}
-
+                  <CardHeader>
+                    <CardTitle className="text-xl font-bold text-gray-900">{project.title}</CardTitle>
+                    <CardDescription className="text-gray-600">{project.description}</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="flex flex-wrap gap-2">
+                      <Badge variant="secondary" className="bg-orange-100 text-orange-700">
+                        Design
+                      </Badge>
+                      <Badge variant="secondary" className="bg-orange-100 text-orange-700">
+                        Development
+                      </Badge>
+                    </div>
+                  </CardContent>
+                </Card>
+              </a>
             ))}
           </div>
         </div>
