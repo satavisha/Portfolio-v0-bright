@@ -210,18 +210,15 @@ Outside dance, I’m a mythology nerd, a huge fan of Devdutt Pattanaik’s work 
 
             <div className="space-y-8">
               <h3 className="text-2xl font-bold text-gray-900">
-                Various versions have evolved over the years, sometimes by accident, sometimes on purpose.
+                Sharing my journey so far.
               </h3>
 
               <div className="space-y-6 text-gray-700">
                 <p>
-                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                  alteration in some form, by injected humour, or randomised words which don't look even slightly
-                  believable.
+                  Check out my projects
                 </p>
                 <p>
-                  If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
-                  embarrassing hidden in the middle of text.
+                  
                 </p>
               </div>
 
