@@ -70,17 +70,16 @@ export default function Portfolio() {
               <div className="space-y-4">
                 <h1 className="text-5xl md:text-7xl font-bold text-gray-900 leading-tight">HI, I'M SATAVISHA.</h1>
                 <h2 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
-                  A CREATIVE{" "}
+                  PRODUCT MANAGER{" "}
                   <span className="inline-flex items-center">
                     <Star className="h-8 w-8 text-orange-500 mx-2" />
                   </span>
-                  PROFESSIONAL
+                  DANCE EDUCATOR
                 </h2>
-                <h3 className="text-2xl md:text-3xl font-bold text-gray-900">
-                  BASED IN <span className="line-through">LONDON</span> INDIA
-                </h3>
+               
               </div>
 
+              {/*
               <div className="flex flex-wrap items-center gap-4 text-lg font-semibold text-gray-900">
                 <span>DESIGN</span>
                 <Star className="h-4 w-4 text-orange-500" />
@@ -88,13 +87,14 @@ export default function Portfolio() {
                 <Star className="h-4 w-4 text-orange-500" />
                 <span>STRATEGY</span>
               </div>
+              */}
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
                   size="lg"
                   className="bg-gray-900 text-white hover:bg-gray-800 transition-all duration-300 transform hover:scale-105"
                 >
-                  Got a project?
+                  Download Resume
                 </Button>
                 <Button
                   size="lg"
