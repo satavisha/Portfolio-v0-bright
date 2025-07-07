@@ -13,7 +13,38 @@ export default function Portfolio() {
   useEffect(() => {
     setIsVisible(true)
   }, [])
-
+const projects = [
+    {
+      title: "OTT For Bharat",
+      description: "An OTT platform for infotainment in regional languages",
+      link: "https://satavisha.notion.site/Lok-Learn-an-OTT-for-Bharat-20c0d6f642c280db872bfa0a675ff0f8",
+    },
+    {
+      title: "DanceBot",
+      description: "A vibe-coded AI assistant for dancers",
+      link: "https://satavisha.notion.site/DanceBot-AI-for-Dancers",
+    },
+    {
+      title: "HealthFirst",
+      description: "Gamified health and wellness app",
+      link: "https://satavisha.notion.site/HealthFirst-App",
+    },
+    {
+      title: "Tribal Revival 2026",
+      description: "4-day international dance workshop & hafla",
+      link: "https://satavisha.notion.site/Tribal-Revival-2026",
+    },
+    {
+      title: "Crypto for All",
+      description: "Educational crypto series for beginners",
+      link: "https://satavisha.notion.site/Crypto-For-All",
+    },
+    {
+      title: "AI + PM Stack",
+      description: "Prompt engineering and product building portfolio",
+      link: "https://satavisha.notion.site/AI-Product-Stack",
+    },
+  ]
   return (
     <div className="min-h-screen bg-gray-50 relative overflow-hidden">
       {/* Animated Background Shapes */}
@@ -248,7 +279,7 @@ export default function Portfolio() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3, 4, 5, 6].map((item) => (
+            {/* {[1, 2, 3, 4, 5, 6].map((item) => (
               <Card
                 key={item}
                 className="group hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2 border-0 shadow-lg"
@@ -275,7 +306,40 @@ export default function Portfolio() {
                     </Badge>
                   </div>
                 </CardContent>
-              </Card>
+              </Card> */}
+              {projects.map((project, index) => (
+  <a
+    key={index}
+    href={project.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block"
+  >
+    <Card className="group hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2 border-0 shadow-lg cursor-pointer">
+      <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 relative overflow-hidden">
+        <div className="absolute inset-0 bg-orange-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <ExternalLink className="h-5 w-5 text-orange-500" />
+        </div>
+      </div>
+      <CardHeader>
+        <CardTitle className="text-xl font-bold text-gray-900">{project.title}</CardTitle>
+        <CardDescription className="text-gray-600">{project.description}</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <div className="flex flex-wrap gap-2">
+          <Badge variant="secondary" className="bg-orange-100 text-orange-700">
+            Design
+          </Badge>
+          <Badge variant="secondary" className="bg-orange-100 text-orange-700">
+            Development
+          </Badge>
+        </div>
+      </CardContent>
+    </Card>
+  </a>
+))}
+
             ))}
           </div>
         </div>
