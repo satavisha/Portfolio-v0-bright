@@ -222,13 +222,14 @@ Outside dance, I’m a mythology nerd, a huge fan of Devdutt Pattanaik’s work 
                 </p>
               </div>
 
-              <Button
+              {/*<Button
                 className="bg-orange-500 text-white hover:bg-orange-600 transition-all duration-300 transform hover:scale-105"
                 size="lg"
               >
                 <Download className="mr-2 h-4 w-4" />
                 Download Resume
               </Button>
+              */}
             </div>
           </div>
         </div>
