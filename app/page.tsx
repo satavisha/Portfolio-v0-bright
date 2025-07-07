@@ -131,17 +131,17 @@ export default function Portfolio() {
         {/* Scrolling Skills Bar */}
         <div className="absolute bottom-0 left-0 right-0 bg-gray-900 text-white py-4 overflow-hidden">
           <div className="animate-marquee whitespace-nowrap flex items-center space-x-8 text-sm font-semibold">
-            <span>DESIGN</span>
+            <span>IDEATE</span>
             <Star className="h-4 w-4 text-orange-500" />
-            <span>BRANDING</span>
+            <span>DESIGN THINKING</span>
             <Star className="h-4 w-4 text-orange-500" />
-            <span>DEVELOPMENT</span>
+            <span>EMPATHY DRIVEN</span>
             <Star className="h-4 w-4 text-orange-500" />
             <span>STRATEGY</span>
             <Star className="h-4 w-4 text-orange-500" />
-            <span>PRODUCT DESIGN</span>
+            <span>PRODUCT ROADMAP</span>
             <Star className="h-4 w-4 text-orange-500" />
-            <span>MOTION GRAPHIC</span>
+            <span>STAKEHOLDER MANAGEMENT</span>
             <Star className="h-4 w-4 text-orange-500" />
             <span>ART DIRECTION</span>
             <Star className="h-4 w-4 text-orange-500" />
@@ -151,7 +151,7 @@ export default function Portfolio() {
             <Star className="h-4 w-4 text-orange-500" />
             <span>DEVELOPMENT</span>
             <Star className="h-4 w-4 text-orange-500" />
-            <span>STRATEGY</span>
+            <span>DANCE</span>
           </div>
         </div>
       </section>
