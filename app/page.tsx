@@ -40,6 +40,12 @@ export default function Portfolio() {
                 About
               </a>
               <a
+                href="#journey"
+                className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
+              >
+                Journey
+              </a>
+              <a
                 href="#experience"
                 className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
               >
@@ -76,7 +82,6 @@ export default function Portfolio() {
                   </span>
                   DANCE EDUCATOR
                 </h2>
-               
               </div>
 
               {/*
@@ -168,20 +173,24 @@ export default function Portfolio() {
               </div>
 
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+                <p>I am a developer turned Product Manager, a Tribal Fusion Belly Dancer and a mythology nerd!</p>{" "}
                 <p>
-                  I am a developer turned Product Manager, a Tribal Fusion Belly Dancer and a mythology nerd!
-                </p> <p>
-Raised in a culturally rich home with an Indian Classical singer mother, I was immersed in the arts early—dabbling in everything from painting to piano—but it was dance that truly moved me.
-                </p><p>
-Since discovering Tribal Fusion in 2016, my journey has taken me across India and beyond—learning, performing, and teaching. TFBD feels like a magical forest I’m still at the periphery! There’s a lot to explore, a lot to learn! 
-                </p><p>
-Outside dance, I’m a mythology nerd, a huge fan of Devdutt Pattanaik’s work , and I like to illustrate stories.
+                  Raised in a culturally rich home with an Indian Classical singer mother, I was immersed in the arts
+                  early—dabbling in everything from painting to piano—but it was dance that truly moved me.
                 </p>
-                
+                <p>
+                  Since discovering Tribal Fusion in 2016, my journey has taken me across India and beyond—learning,
+                  performing, and teaching. TFBD feels like a magical forest I’m still at the periphery! There’s a lot
+                  to explore, a lot to learn!
+                </p>
+                <p>
+                  Outside dance, I’m a mythology nerd, a huge fan of Devdutt Pattanaik’s work , and I like to illustrate
+                  stories.
+                </p>
               </div>
 
               <div className="flex flex-wrap gap-3">
-              {/*  <Badge
+                {/*  <Badge
                   variant="outline"
                   className="border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition-colors"
                 >
@@ -209,17 +218,11 @@ Outside dance, I’m a mythology nerd, a huge fan of Devdutt Pattanaik’s work 
             </div>
 
             <div className="space-y-8">
-              <h3 className="text-2xl font-bold text-gray-900">
-                Sharing my journey so far.
-              </h3>
+              <h3 className="text-2xl font-bold text-gray-900">Sharing my journey so far.</h3>
 
               <div className="space-y-6 text-gray-700">
-                <p>
-                  Check out my projects
-                </p>
-                <p>
-                  
-                </p>
+                <p>Check out my projects</p>
+                <p></p>
               </div>
 
               {/*<Button
@@ -234,7 +237,237 @@ Outside dance, I’m a mythology nerd, a huge fan of Devdutt Pattanaik’s work 
           </div>
         </div>
       </section>
-      
+
+      {/* Professional Journey Section */}
+      <section
+        id="journey"
+        className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden"
+      >
+        {/* Background Effects */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(249,115,22,0.1),transparent_50%)]"></div>
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-orange-500/5 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-orange-500/5 rounded-full blur-3xl"></div>
+
+        <div className="max-w-6xl mx-auto relative">
+          {/* Section Header */}
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white mb-6">
+              <span className="text-sm font-medium">My professional journey</span>
+            </div>
+            <h2 className="text-4xl md:text-6xl font-bold text-white mb-4">Work Experience</h2>
+            <div className="flex items-center justify-center space-x-4">
+              <div className="h-px bg-orange-500 w-16"></div>
+              <Star className="h-6 w-6 text-orange-500" />
+              <div className="h-px bg-orange-500 w-16"></div>
+            </div>
+          </div>
+
+          {/* Timeline */}
+          <div className="relative">
+            {/* Timeline Line */}
+            <div className="absolute left-1/2 transform -translate-x-px h-full w-0.5 bg-gradient-to-b from-orange-500 via-orange-400 to-orange-500"></div>
+
+            {/* Experience Items */}
+            <div className="space-y-12">
+              {/* Experience 1 - Right Side */}
+              <div className="relative flex items-center justify-between">
+                <div className="w-5/12"></div>
+                <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-orange-500 rounded-full border-4 border-gray-900 z-10 animate-pulse"></div>
+                <div className="w-5/12">
+                  <div className="group">
+                    <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:bg-white/15 transition-all duration-500 transform hover:scale-105 hover:shadow-2xl">
+                      <div className="flex items-start justify-between mb-4">
+                        <div>
+                          <h3 className="text-xl font-bold text-white mb-1">Senior Product Manager</h3>
+                          <p className="text-orange-400 font-medium">Tech Innovations Inc.</p>
+                        </div>
+                        <span className="text-sm text-gray-300 bg-white/10 px-3 py-1 rounded-full">2023 - Present</span>
+                      </div>
+                      <p className="text-gray-300 leading-relaxed">
+                        Leading product strategy and roadmap development for a SaaS platform. Collaborated with
+                        cross-functional teams to deliver innovative features that increased user engagement by 40%.
+                      </p>
+                      <div className="flex flex-wrap gap-2 mt-4">
+                        <Badge variant="secondary" className="bg-orange-500/20 text-orange-300 border-orange-500/30">
+                          Product Strategy
+                        </Badge>
+                        <Badge variant="secondary" className="bg-orange-500/20 text-orange-300 border-orange-500/30">
+                          Roadmapping
+                        </Badge>
+                        <Badge variant="secondary" className="bg-orange-500/20 text-orange-300 border-orange-500/30">
+                          Analytics
+                        </Badge>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Experience 2 - Left Side */}
+              <div className="relative flex items-center justify-between">
+                <div className="w-5/12">
+                  <div className="group">
+                    <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:bg-white/15 transition-all duration-500 transform hover:scale-105 hover:shadow-2xl">
+                      <div className="flex items-start justify-between mb-4">
+                        <div>
+                          <h3 className="text-xl font-bold text-white mb-1">Product Manager</h3>
+                          <p className="text-orange-400 font-medium">Digital Solutions Co.</p>
+                        </div>
+                        <span className="text-sm text-gray-300 bg-white/10 px-3 py-1 rounded-full">2021 - 2023</span>
+                      </div>
+                      <p className="text-gray-300 leading-relaxed">
+                        Managed product lifecycle from conception to launch. Worked closely with engineering and design
+                        teams to deliver user-centric solutions that improved customer satisfaction scores.
+                      </p>
+                      <div className="flex flex-wrap gap-2 mt-4">
+                        <Badge variant="secondary" className="bg-orange-500/20 text-orange-300 border-orange-500/30">
+                          Product Management
+                        </Badge>
+                        <Badge variant="secondary" className="bg-orange-500/20 text-orange-300 border-orange-500/30">
+                          User Research
+                        </Badge>
+                        <Badge variant="secondary" className="bg-orange-500/20 text-orange-300 border-orange-500/30">
+                          Agile
+                        </Badge>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-orange-500 rounded-full border-4 border-gray-900 z-10 animate-pulse"></div>
+                <div className="w-5/12"></div>
+              </div>
+
+              {/* Experience 3 - Right Side */}
+              <div className="relative flex items-center justify-between">
+                <div className="w-5/12"></div>
+                <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-orange-500 rounded-full border-4 border-gray-900 z-10 animate-pulse"></div>
+                <div className="w-5/12">
+                  <div className="group">
+                    <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:bg-white/15 transition-all duration-500 transform hover:scale-105 hover:shadow-2xl">
+                      <div className="flex items-start justify-between mb-4">
+                        <div>
+                          <h3 className="text-xl font-bold text-white mb-1">Frontend Developer</h3>
+                          <p className="text-orange-400 font-medium">Creative Agency Ltd.</p>
+                        </div>
+                        <span className="text-sm text-gray-300 bg-white/10 px-3 py-1 rounded-full">2019 - 2021</span>
+                      </div>
+                      <p className="text-gray-300 leading-relaxed">
+                        Developed responsive web applications using React and TypeScript. Collaborated with designers
+                        and backend engineers to deliver high-quality, performant user interfaces.
+                      </p>
+                      <div className="flex flex-wrap gap-2 mt-4">
+                        <Badge variant="secondary" className="bg-orange-500/20 text-orange-300 border-orange-500/30">
+                          React
+                        </Badge>
+                        <Badge variant="secondary" className="bg-orange-500/20 text-orange-300 border-orange-500/30">
+                          TypeScript
+                        </Badge>
+                        <Badge variant="secondary" className="bg-orange-500/20 text-orange-300 border-orange-500/30">
+                          UI/UX
+                        </Badge>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Experience 4 - Left Side */}
+              <div className="relative flex items-center justify-between">
+                <div className="w-5/12">
+                  <div className="group">
+                    <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:bg-white/15 transition-all duration-500 transform hover:scale-105 hover:shadow-2xl">
+                      <div className="flex items-start justify-between mb-4">
+                        <div>
+                          <h3 className="text-xl font-bold text-white mb-1">Junior Developer</h3>
+                          <p className="text-orange-400 font-medium">StartUp Ventures</p>
+                        </div>
+                        <span className="text-sm text-gray-300 bg-white/10 px-3 py-1 rounded-full">2018 - 2019</span>
+                      </div>
+                      <p className="text-gray-300 leading-relaxed">
+                        Started my professional journey building web applications and learning modern development
+                        practices. Contributed to multiple projects while developing strong foundation skills.
+                      </p>
+                      <div className="flex flex-wrap gap-2 mt-4">
+                        <Badge variant="secondary" className="bg-orange-500/20 text-orange-300 border-orange-500/30">
+                          JavaScript
+                        </Badge>
+                        <Badge variant="secondary" className="bg-orange-500/20 text-orange-300 border-orange-500/30">
+                          HTML/CSS
+                        </Badge>
+                        <Badge variant="secondary" className="bg-orange-500/20 text-orange-300 border-orange-500/30">
+                          Git
+                        </Badge>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-orange-500 rounded-full border-4 border-gray-900 z-10 animate-pulse"></div>
+                <div className="w-5/12"></div>
+              </div>
+            </div>
+
+            {/* Mobile Timeline - Responsive Design */}
+            <div className="md:hidden space-y-8">
+              {[
+                {
+                  title: "Senior Product Manager",
+                  company: "Tech Innovations Inc.",
+                  period: "2023 - Present",
+                  description: "Leading product strategy and roadmap development for a SaaS platform.",
+                  skills: ["Product Strategy", "Roadmapping", "Analytics"],
+                },
+                {
+                  title: "Product Manager",
+                  company: "Digital Solutions Co.",
+                  period: "2021 - 2023",
+                  description: "Managed product lifecycle from conception to launch.",
+                  skills: ["Product Management", "User Research", "Agile"],
+                },
+                {
+                  title: "Frontend Developer",
+                  company: "Creative Agency Ltd.",
+                  period: "2019 - 2021",
+                  description: "Developed responsive web applications using React and TypeScript.",
+                  skills: ["React", "TypeScript", "UI/UX"],
+                },
+                {
+                  title: "Junior Developer",
+                  company: "StartUp Ventures",
+                  period: "2018 - 2019",
+                  description: "Started professional journey building web applications.",
+                  skills: ["JavaScript", "HTML/CSS", "Git"],
+                },
+              ].map((exp, index) => (
+                <div key={index} className="relative pl-8">
+                  <div className="absolute left-0 top-0 w-4 h-4 bg-orange-500 rounded-full border-4 border-gray-900 animate-pulse"></div>
+                  <div className="absolute left-2 top-4 w-0.5 h-full bg-orange-500/50"></div>
+                  <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6">
+                    <div className="flex items-start justify-between mb-4">
+                      <div>
+                        <h3 className="text-lg font-bold text-white mb-1">{exp.title}</h3>
+                        <p className="text-orange-400 font-medium">{exp.company}</p>
+                      </div>
+                      <span className="text-sm text-gray-300 bg-white/10 px-3 py-1 rounded-full">{exp.period}</span>
+                    </div>
+                    <p className="text-gray-300 leading-relaxed mb-4">{exp.description}</p>
+                    <div className="flex flex-wrap gap-2">
+                      {exp.skills.map((skill, skillIndex) => (
+                        <Badge
+                          key={skillIndex}
+                          variant="secondary"
+                          className="bg-orange-500/20 text-orange-300 border-orange-500/30"
+                        >
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Experience Section */}
       <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
@@ -344,5 +577,5 @@ Outside dance, I’m a mythology nerd, a huge fan of Devdutt Pattanaik’s work 
         </div>
       </footer>
     </div>
-  )\
+  )
 }
