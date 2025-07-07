@@ -179,9 +179,9 @@ Outside dance, I’m a mythology nerd, a huge fan of Devdutt Pattanaik’s work 
                 </p>
                 
               </div>
-{/*
+
               <div className="flex flex-wrap gap-3">
-                <Badge
+               {/* <Badge
                   variant="outline"
                   className="border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition-colors"
                 >
