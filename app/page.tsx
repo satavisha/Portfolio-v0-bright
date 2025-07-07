@@ -222,7 +222,7 @@ Outside dance, I’m a mythology nerd, a huge fan of Devdutt Pattanaik’s work 
                 </p>
               </div>
 
-              <Button
+              {/*<Button
                 className="bg-orange-500 text-white hover:bg-orange-600 transition-all duration-300 transform hover:scale-105"
                 size="lg"
               >
@@ -233,6 +233,7 @@ Outside dance, I’m a mythology nerd, a huge fan of Devdutt Pattanaik’s work 
           </div>
         </div>
       </section>
+      */}
 
       {/* Experience Section */}
       <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
