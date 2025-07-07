@@ -261,7 +261,6 @@ export default function Portfolio() {
                 </div>
                 <CardHeader>
                   <CardTitle className="text-xl font-bold text-gray-900">Project {item}</CardTitle>
-                  
                   <CardDescription className="text-gray-600">
                     A comprehensive solution that addresses key challenges
                   </CardDescription>
