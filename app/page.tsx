@@ -179,7 +179,7 @@ Outside dance, I’m a mythology nerd, a huge fan of Devdutt Pattanaik’s work 
                 </p>
                 
               </div>
-
+{/*
               <div className="flex flex-wrap gap-3">
                 <Badge
                   variant="outline"
@@ -207,7 +207,7 @@ Outside dance, I’m a mythology nerd, a huge fan of Devdutt Pattanaik’s work 
                 </Badge>
               </div>
             </div>
-
+*/}
             <div className="space-y-8">
               <h3 className="text-2xl font-bold text-gray-900">
                 Various versions have evolved over the years, sometimes by accident, sometimes on purpose.
