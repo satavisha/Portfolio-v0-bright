@@ -28,9 +28,10 @@ export default function Portfolio() {
       image: "https://images.unsplash.com/photo-1631603090989-93f9ef6f9d80?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
     },
     {
-      title: "HealthFirst",
+      title: "KPHealth - a Health app for Kaiser Permanente",
       description: "Gamified health and wellness app",
-      link: "https://satavisha.notion.site/HealthFirst-App",
+      link: "https://satavisha.notion.site/KPHealth-a-Health-app-for-Kaiser-Permanente-e93e6093cc1c478b90607728e8c18943",
+      image: "https://www.notion.so/image/attachment%3A0129c1ee-f4a1-478d-9156-55b16c78e60f%3Ab966c999-656a-47be-a326-dfa942290b0f.png?table=block&id=e93e6093-cc1c-478b-9060-7728e8c18943&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=2b806a23-07cf-40b5-94e3-9b49926b2e11&cache=v2"
     },
     {
       title: "Tribal Revival 2026",
