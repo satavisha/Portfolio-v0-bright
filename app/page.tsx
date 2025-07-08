@@ -18,7 +18,8 @@ export default function Portfolio() {
       title: "OTT For Bharat",
       description: "An OTT platform for infotainment in regional languages",
       link: "https://satavisha.notion.site/Lok-Learn-an-OTT-for-Bharat-20c0d6f642c280db872bfa0a675ff0f8",
-      image: "https://satavisha.notion.site/image/attachment%3Abaf198dc-30fb-4cc8-b836-04923e9300ed%3Alok_learn_logo_2.png?table=block&id=20c0d6f6-42c2-80db-872b-fa0a675ff0f8&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2"
+      image:
+        "https://satavisha.notion.site/image/attachment%3Abaf198dc-30fb-4cc8-b836-04923e9300ed%3Alok_learn_logo_2.png?table=block&id=20c0d6f6-42c2-80db-872b-fa0a675ff0f8&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2",
     },
     {
       title: "DanceBot",
@@ -274,6 +275,15 @@ export default function Portfolio() {
               <a key={index} href={project.link} target="_blank" rel="noopener noreferrer" className="block">
                 <Card className="group hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2 border-0 shadow-lg cursor-pointer">
                   <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 relative overflow-hidden">
+                    {project.image ? (
+                      <img
+                        src={project.image || "/placeholder.svg"}
+                        alt={project.title}
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <div className="w-full h-full bg-gradient-to-br from-gray-100 to-gray-200"></div>
+                    )}
                     <div className="absolute inset-0 bg-orange-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <ExternalLink className="h-5 w-5 text-orange-500" />
