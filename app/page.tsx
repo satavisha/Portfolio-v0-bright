@@ -19,12 +19,13 @@ export default function Portfolio() {
       description: "An OTT platform for infotainment in regional languages",
       link: "https://satavisha.notion.site/Lok-Learn-an-OTT-for-Bharat-20c0d6f642c280db872bfa0a675ff0f8",
       image:
-        "https://satavisha.notion.site/image/attachment%3Abaf198dc-30fb-4cc8-b836-04923e9300ed%3Alok_learn_logo_2.png?table=block&id=20c0d6f6-42c2-80db-872b-fa0a675ff0f8&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v21",
+        "https://satavisha.notion.site/image/attachment%3Abaf198dc-30fb-4cc8-b836-04923e9300ed%3Alok_learn_logo_2.png?table=block&id=20c0d6f6-42c2-80db-872b-fa0a675ff0f8&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2",
     },
     {
-      title: "DanceBot",
+      title: "DeCrypt : an AI powered tool for Crypto traders",
       description: "A vibe-coded AI assistant for dancers",
-      link: "https://satavisha.notion.site/DanceBot-AI-for-Dancers",
+      link: "https://satavisha.notion.site/DeCrypt-an-AI-powered-tool-for-Crypto-traders-20c0d6f642c2800094e6c803c5060f39",
+      image: "https://images.unsplash.com/photo-1631603090989-93f9ef6f9d80?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
     },
     {
       title: "HealthFirst",
