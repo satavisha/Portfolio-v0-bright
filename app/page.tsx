@@ -35,7 +35,7 @@ export default function Portfolio() {
     },
     {
       title: "Tribal Revival 2026",
-      description: "4-day international dance workshop & hafla",
+      description: "4-day international dance workshop & performance",
       link: "https://satavisha.notion.site/Tribal-Revival-2026",
     },
     {
