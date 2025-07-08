@@ -23,7 +23,7 @@ export default function Portfolio() {
     },
     {
       title: "DeCrypt : an AI powered tool for Crypto traders",
-      description: "A vibe-coded AI assistant for dancers",
+      description: "Blockchain-based platform utilizing a Generative Engine and Retrieval Augmented System to curate insights for users",
       link: "https://satavisha.notion.site/DeCrypt-an-AI-powered-tool-for-Crypto-traders-20c0d6f642c2800094e6c803c5060f39",
       image: "https://images.unsplash.com/photo-1631603090989-93f9ef6f9d80?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
     },
