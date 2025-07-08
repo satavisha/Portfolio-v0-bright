@@ -123,13 +123,14 @@ export default function Portfolio() {
                     Download Resume
                   </a>
                 </Button>
-                <Button
+               {/* <Button
                   size="lg"
                   variant="outline"
                   className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition-all duration-300 bg-transparent"
                 >
                   Let's talk.
                 </Button>
+                */}
               </div>
             </div>
 
