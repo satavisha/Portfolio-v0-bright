@@ -86,12 +86,12 @@ export default function Portfolio() {
               >
                 Contact
               </a>
-              <Button
+              {/* <Button
                 variant="outline"
                 className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition-all duration-300 bg-transparent"
               >
                 Let's talk
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
