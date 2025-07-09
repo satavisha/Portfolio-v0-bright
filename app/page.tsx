@@ -246,37 +246,56 @@ export default function Portfolio() {
               <div className="space-y-6 text-gray-700">
                 <p></p>
 
-<div className="flex items-center space-x-6 mt-4">
+
+<div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
+  {/* LinkedIn */}
   <a
     href="https://linkedin.com/in/satavisha"
     target="_blank"
     rel="noopener noreferrer"
-    className="group bg-orange-50 p-3 rounded-full hover:bg-orange-100 transition-colors duration-300"
+    className="group text-center"
   >
-    <Linkedin className="h-6 w-6 text-orange-500 group-hover:text-orange-600" />
+    <div className="bg-orange-50 p-6 rounded-lg mb-4 group-hover:bg-orange-100 transition-colors duration-300">
+      <Linkedin className="h-8 w-8 text-orange-500 mx-auto" />
+    </div>
+    <h3 className="font-bold text-gray-900 mb-1">LinkedIn</h3>
+    <p className="text-gray-600 text-sm">linkedin.com/in/satavisha</p>
   </a>
+
+  {/* GitHub */}
   <a
     href="https://github.com/satavisha"
     target="_blank"
     rel="noopener noreferrer"
-    className="group bg-orange-50 p-3 rounded-full hover:bg-orange-100 transition-colors duration-300"
+    className="group text-center"
   >
-    <Github className="h-6 w-6 text-orange-500 group-hover:text-orange-600" />
+    <div className="bg-orange-50 p-6 rounded-lg mb-4 group-hover:bg-orange-100 transition-colors duration-300">
+      <Github className="h-8 w-8 text-orange-500 mx-auto" />
+    </div>
+    <h3 className="font-bold text-gray-900 mb-1">GitHub</h3>
+    <p className="text-gray-600 text-sm">github.com/satavisha</p>
   </a>
+
+  {/* Twitter / X */}
   <a
-    href="https://twitter.com/satavisha"
+    href="https://x.com/satavisha"
     target="_blank"
     rel="noopener noreferrer"
-    className="group bg-orange-50 p-3 rounded-full hover:bg-orange-100 transition-colors duration-300"
+    className="group text-center"
   >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="h-6 w-6 text-orange-500 group-hover:text-orange-600"
-      fill="currentColor"
-      viewBox="0 0 24 24"
-    >
-      <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.25 4.25 0 001.88-2.35 8.44 8.44 0 01-2.7 1.03 4.22 4.22 0 00-7.2 3.84A11.98 11.98 0 013 4.79a4.22 4.22 0 001.31 5.63A4.18 4.18 0 012.8 9.5v.05a4.23 4.23 0 003.38 4.14 4.2 4.2 0 01-1.91.07 4.23 4.23 0 003.94 2.93A8.48 8.48 0 012 19.54a11.94 11.94 0 006.29 1.84c7.55 0 11.68-6.26 11.68-11.68 0-.18-.01-.36-.02-.54A8.36 8.36 0 0024 5.59a8.32 8.32 0 01-2.54.7z" />
-    </svg>
+    <div className="bg-orange-50 p-6 rounded-lg mb-4 group-hover:bg-orange-100 transition-colors duration-300">
+      {/* X logo from SVG */}
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-8 w-8 text-orange-500 mx-auto"
+        fill="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path d="M20.293 3H17.41L12 9.177 6.59 3H3.707l7.063 7.763L2.293 21h2.884l6.09-6.7 6.09 6.7h2.884l-8.477-9.788L20.293 3z" />
+      </svg>
+    </div>
+    <h3 className="font-bold text-gray-900 mb-1">X (Twitter)</h3>
+    <p className="text-gray-600 text-sm">x.com/satavisha</p>
   </a>
 </div>
               </div>
