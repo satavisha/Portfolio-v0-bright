@@ -77,7 +77,7 @@ export default function Portfolio() {
    Projects
 </a>
               <a
-                href="#contact"
+                href="#blogs"
                 className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
               >
                 Blogs
@@ -359,56 +359,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-8">LET'S CONNECT</h2>
 
-          <div className="flex items-center justify-center space-x-4 mb-12">
-            <div className="h-px bg-orange-500 w-16"></div>
-            <Star className="h-6 w-6 text-orange-500" />
-            <div className="h-px bg-orange-500 w-16"></div>
-          </div>
-
-          <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
-            I'm always interested in new opportunities and meaningful conversations. Feel free to reach out!
-          </p>
-
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="group">
-              <div className="bg-orange-50 p-6 rounded-lg mb-4 group-hover:bg-orange-100 transition-colors duration-300">
-                <Mail className="h-8 w-8 text-orange-500 mx-auto" />
-              </div>
-              <h3 className="font-bold text-gray-900 mb-2">Email</h3>
-              <p className="text-gray-600">satavisha@example.com</p>
-            </div>
-
-            <div className="group">
-              <div className="bg-orange-50 p-6 rounded-lg mb-4 group-hover:bg-orange-100 transition-colors duration-300">
-                <Linkedin className="h-8 w-8 text-orange-500 mx-auto" />
-              </div>
-              <h3 className="font-bold text-gray-900 mb-2">LinkedIn</h3>
-              <p className="text-gray-600">linkedin.com/in/satavisha</p>
-            </div>
-
-            <div className="group">
-              <div className="bg-orange-50 p-6 rounded-lg mb-4 group-hover:bg-orange-100 transition-colors duration-300">
-                <Github className="h-8 w-8 text-orange-500 mx-auto" />
-              </div>
-              <h3 className="font-bold text-gray-900 mb-2">GitHub</h3>
-              <p className="text-gray-600">github.com/satavisha</p>
-            </div>
-          </div>
-
-          <Button
-            size="lg"
-            className="bg-gray-900 text-white hover:bg-gray-800 transition-all duration-300 transform hover:scale-105"
-          >
-            <Mail className="mr-2 h-4 w-4" />
-            Get In Touch
-          </Button>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="py-8 px-4 sm:px-6 lg:px-8 bg-gray-900 text-white">
