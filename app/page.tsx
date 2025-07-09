@@ -36,24 +36,7 @@ export default function Portfolio() {
       image:
         "https://satavisha.notion.site/image/attachment%3A0129c1ee-f4a1-478d-9156-55b16c78e60f%3Ab966c999-656a-47be-a326-dfa942290b0f.png?table=block&id=e93e6093-cc1c-478b-9060-7728e8c18943&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2",
     },
-    {
-      title: "BitsCrunch Case Study",
-      description: "A product case study and building a new feature",
-      link: "https://satavisha.notion.site/bitsCrunch-Case-Study-4a7d54ba177c44d59adf8616a4885cb1?source=copy_link",
-      image:
-        "https://satavisha.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e6cc760-0940-49ad-848e-a29f97c99963%2F97dd8b49-e3f1-457c-bc08-9d31c013ddc9%2Fwallpaper.jpg?table=block&id=4a7d54ba-177c-44d5-9adf-8616a4885cb1&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2",
-    },
-    {
-      title: "Feature Enhancement | Qikfox",
-      description: "",
-      link: "https://satavisha.notion.site/Safe-browsing-Feature-Enhancement-qikfox-6b2f0104bd234815b111b7fecc87409d",
-      image: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/86376e8a-6b58-415e-9c8d-66d3ef24f2bb",
-    },
-    {
-      title: "AI + PM Stack",
-      description: "Prompt engineering and product building portfolio",
-      link: "https://satavisha.notion.site/AI-Product-Stack",
-    },
+    
   ]
   return (
     <div className="min-h-screen bg-gray-50 relative overflow-hidden">
