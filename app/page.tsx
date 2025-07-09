@@ -43,11 +43,11 @@ export default function Portfolio() {
       image: "https://satavisha.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e6cc760-0940-49ad-848e-a29f97c99963%2F97dd8b49-e3f1-457c-bc08-9d31c013ddc9%2Fwallpaper.jpg?table=block&id=4a7d54ba-177c-44d5-9adf-8616a4885cb1&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2"
     },
     {
-      title: "Performed with the legendary Olga Meos, at Tribal Kazaksthan 2025",
-      description: "Performed at Asia's biggest Tribal Fusion Belly Dance Festival",
-      link: "https://satavisha.notion.site/Performed-with-the-legendary-Olga-Meos-at-Tribal-Kazaksthan-2025-20c0d6f642c280369d8cc128e4ec71d9",
+      title: "Feature Enhancement | Qikfox",
+      description: "",
+      link: "https://satavisha.notion.site/Safe-browsing-Feature-Enhancement-qikfox-6b2f0104bd234815b111b7fecc87409d",
       image:
-        "https://satavisha.notion.site/image/attachment%3A1339f8be-c3b3-4d61-a811-ff0f73f2f0fc%3Ame_2.png?table=block&id=20c0d6f6-42c2-8091-aeba-f80d4e4dc7ba&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=660&userId=&cache=v2",
+        "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/86376e8a-6b58-415e-9c8d-66d3ef24f2bb",
     },
     {
       title: "AI + PM Stack",
