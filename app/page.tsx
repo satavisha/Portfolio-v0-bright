@@ -278,7 +278,7 @@ export default function Portfolio() {
 
   {/* Twitter / X */}
   <a
-    href="https://x.com/satavisha"
+    href="https://x.com/satavishaMitra"
     target="_blank"
     rel="noopener noreferrer"
     className="group text-center"
@@ -295,7 +295,7 @@ export default function Portfolio() {
       </svg>
     </div>
     <h3 className="font-bold text-gray-900 mb-1">X (Twitter)</h3>
-    <p className="text-gray-600 text-sm">x.com/satavisha</p>
+    <p className="text-gray-600 text-sm">x.com/satavishaMitra/p>
   </a>
 </div>
               </div>
