@@ -36,7 +36,6 @@ export default function Portfolio() {
       image:
         "https://satavisha.notion.site/image/attachment%3A0129c1ee-f4a1-478d-9156-55b16c78e60f%3Ab966c999-656a-47be-a326-dfa942290b0f.png?table=block&id=e93e6093-cc1c-478b-9060-7728e8c18943&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2",
     },
-    
   ]
   return (
     <div className="min-h-screen bg-gray-50 relative overflow-hidden">
@@ -71,34 +70,32 @@ export default function Portfolio() {
                 href="#projects"
                 className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
                 onClick={(e) => {
-    e.preventDefault()
-    document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })
-  }}
+                  e.preventDefault()
+                  document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })
+                }}
               >
                 Projects
               </a>
-              <a href="#blogs" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
-              onClick={(e) => {
-    e.preventDefault()
-    document.getElementById("blogs")?.scrollIntoView({ behavior: "smooth" })
-  }}
-  >
+              <a
+                href="#blogs"
+                className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
+                onClick={(e) => {
+                  e.preventDefault()
+                  document.getElementById("blogs")?.scrollIntoView({ behavior: "smooth" })
+                }}
+              >
                 Blogs
               </a>
-              <a href="#dance" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
-              onClick={(e) => {
-    e.preventDefault()
-    document.getElementById("dance")?.scrollIntoView({ behavior: "smooth" })
-  }}
+              <a
+                href="#dance"
+                className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
+                onClick={(e) => {
+                  e.preventDefault()
+                  document.getElementById("dance")?.scrollIntoView({ behavior: "smooth" })
+                }}
               >
                 Dance
               </a>
-              {/* <Button
-                variant="outline"
-                className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition-all duration-300 bg-transparent"
-              >
-                Let's talk
-              </Button> */}
             </div>
           </div>
         </div>
@@ -121,16 +118,15 @@ export default function Portfolio() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-               
-                  <a href="/resume.pdf" download="Satavisha_Mitra_Resume.pdf">
-  <Button
-    size="lg"
-    className="border-2 bg-gray-900 text-white hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
-  >
-    <Download className="h-5 w-5" />
-    Download Resume
-  </Button>
-</a>
+                <a href="/resume.pdf" download="Satavisha_Mitra_Resume.pdf">
+                  <Button
+                    size="lg"
+                    className="border-2 bg-gray-900 text-white hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+                  >
+                    <Download className="h-5 w-5" />
+                    Download Resume
+                  </Button>
+                </a>
 
                 {/* <Button
                   size="lg"
@@ -165,8 +161,9 @@ export default function Portfolio() {
           </div>
         </div>
 
-        {/* Scrolling Skills Bar */}
-       {/* <div className="absolute bottom-0 left-0 right-0 bg-gray-900 text-white py-4 overflow-hidden">
+        {/* Scrolling Skills Bar - Commented out for now */}
+        {/* 
+        <div className="absolute bottom-0 left-0 right-0 bg-gray-900 text-white py-4 overflow-hidden">
           <div className="animate-marquee whitespace-nowrap flex items-center space-x-8 text-sm font-semibold">
             <span>IDEATE</span>
             <Star className="h-4 w-4 text-orange-500" />
@@ -189,8 +186,8 @@ export default function Portfolio() {
             <span>DANCE</span>
           </div>
         </div>
+        */}
       </section>
-      */}
 
       {/* About Section */}
       <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-white relative">
@@ -385,7 +382,7 @@ export default function Portfolio() {
           </div>
 
           <ol className="list-decimal list-inside space-y-2 text-lg text-gray-900 font-medium">
-          <li>
+            <li>
               <a
                 href="https://satavisha.notion.site/Navigating-the-Product-Maze-A-Guide-to-Being-an-Outstanding-Product-Manager-5b0eea81c36b425797c9da317c927b13"
                 className="hover:text-orange-500 transition-colors duration-200"
@@ -415,7 +412,7 @@ export default function Portfolio() {
                 Favorite product breakdown
               </a>
             </li>
-            
+
             <li>
               <a
                 href="https://satavisha.notion.site/Porter-s-5-for-Crypto-industry-84a59bcba0324b3f8ae135733a5b9f52"
