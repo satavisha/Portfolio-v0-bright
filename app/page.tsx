@@ -250,7 +250,7 @@ export default function Portfolio() {
 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
   {/* LinkedIn */}
   <a
-    href="https://linkedin.com/in/satavisha"
+    href="https://www.linkedin.com/in/satavisha-mitra/a"
     target="_blank"
     rel="noopener noreferrer"
     className="group text-center"
@@ -259,7 +259,7 @@ export default function Portfolio() {
       <Linkedin className="h-8 w-8 text-orange-500 mx-auto" />
     </div>
     <h3 className="font-bold text-gray-900 mb-1">LinkedIn</h3>
-    <p className="text-gray-600 text-sm">linkedin.com/in/satavisha</p>
+    <p className="text-gray-600 text-sm">linkedin.com/satavisha-mitra</p>
   </a>
 
   {/* GitHub */}
