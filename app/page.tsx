@@ -97,7 +97,7 @@ export default function Portfolio() {
               <a href="#blogs" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
               onClick={(e) => {
     e.preventDefault()
-    document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })
+    document.getElementById("blogs")?.scrollIntoView({ behavior: "smooth" })
   }}
   >
                 Blogs
@@ -105,7 +105,7 @@ export default function Portfolio() {
               <a href="#dance" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
               onClick={(e) => {
     e.preventDefault()
-    document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })
+    document.getElementById("dance")?.scrollIntoView({ behavior: "smooth" })
   }}
               >
                 Dance
