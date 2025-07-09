@@ -349,7 +349,7 @@ export default function Portfolio() {
                   <CardContent>
                     <div className="flex flex-wrap gap-2">
                       <Badge variant="secondary" className="bg-orange-100 text-orange-700">
-                        Design
+                        Product Management
                       </Badge>
                       <Badge variant="secondary" className="bg-orange-100 text-orange-700">
                         Development
