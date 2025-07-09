@@ -181,7 +181,7 @@ export default function Portfolio() {
         </div>
 
         {/* Scrolling Skills Bar */}
-        <div className="absolute bottom-0 left-0 right-0 bg-gray-900 text-white py-4 overflow-hidden">
+       {/* <div className="absolute bottom-0 left-0 right-0 bg-gray-900 text-white py-4 overflow-hidden">
           <div className="animate-marquee whitespace-nowrap flex items-center space-x-8 text-sm font-semibold">
             <span>IDEATE</span>
             <Star className="h-4 w-4 text-orange-500" />
@@ -205,6 +205,7 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
+      */}
 
       {/* About Section */}
       <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-white relative">
