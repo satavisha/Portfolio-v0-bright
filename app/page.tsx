@@ -39,9 +39,10 @@ export default function Portfolio() {
       link: "https://satavisha.notion.site/bitsCrunch-Case-Study-4a7d54ba177c44d59adf8616a4885cb1?source=copy_link",
     },
     {
-      title: "Crypto for All",
-      description: "Educational crypto series for beginners",
-      link: "https://satavisha.notion.site/Crypto-For-All",
+      title: "Performed with the legendary Olga Meos, at Tribal Kazaksthan 2025",
+      description: "Performed at Asia's biggest Tribal Fusion Belly Dance Festival",
+      link: "https://satavisha.notion.site/Performed-with-the-legendary-Olga-Meos-at-Tribal-Kazaksthan-2025-20c0d6f642c280369d8cc128e4ec71d9",
+      image: "https://satavisha.notion.site/image/attachment%3A1339f8be-c3b3-4d61-a811-ff0f73f2f0fc%3Ame_2.png?table=block&id=20c0d6f6-42c2-8091-aeba-f80d4e4dc7ba&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=660&userId=&cache=v2"
     },
     {
       title: "AI + PM Stack",
