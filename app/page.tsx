@@ -171,7 +171,7 @@ export default function Portfolio() {
             <Star className="h-4 w-4 text-orange-500" />
             <span>STAKEHOLDER MANAGEMENT</span>
             <Star className="h-4 w-4 text-orange-500" />
-            <span>ART DIRECTION</span>
+            <span></span>
             <Star className="h-4 w-4 text-orange-500" />
             <span>DESIGN</span>
             <Star className="h-4 w-4 text-orange-500" />
