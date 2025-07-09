@@ -298,7 +298,7 @@ export default function Portfolio() {
       <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">FEATURED WORKS</h2>
+            <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">PROJECTS</h2>
             <div className="flex items-center justify-center space-x-4">
               <div className="h-px bg-orange-500 w-16"></div>
               <Star className="h-6 w-6 text-orange-500" />
