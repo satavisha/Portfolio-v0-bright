@@ -245,7 +245,40 @@ export default function Portfolio() {
 
               <div className="space-y-6 text-gray-700">
                 <p>Check out my projects</p>
-                <p></p>
+
+<div className="flex items-center space-x-6 mt-4">
+  <a
+    href="https://linkedin.com/in/satavisha"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group bg-orange-50 p-3 rounded-full hover:bg-orange-100 transition-colors duration-300"
+  >
+    <Linkedin className="h-6 w-6 text-orange-500 group-hover:text-orange-600" />
+  </a>
+  <a
+    href="https://github.com/satavisha"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group bg-orange-50 p-3 rounded-full hover:bg-orange-100 transition-colors duration-300"
+  >
+    <Github className="h-6 w-6 text-orange-500 group-hover:text-orange-600" />
+  </a>
+  <a
+    href="https://twitter.com/satavisha"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group bg-orange-50 p-3 rounded-full hover:bg-orange-100 transition-colors duration-300"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="h-6 w-6 text-orange-500 group-hover:text-orange-600"
+      fill="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.25 4.25 0 001.88-2.35 8.44 8.44 0 01-2.7 1.03 4.22 4.22 0 00-7.2 3.84A11.98 11.98 0 013 4.79a4.22 4.22 0 001.31 5.63A4.18 4.18 0 012.8 9.5v.05a4.23 4.23 0 003.38 4.14 4.2 4.2 0 01-1.91.07 4.23 4.23 0 003.94 2.93A8.48 8.48 0 012 19.54a11.94 11.94 0 006.29 1.84c7.55 0 11.68-6.26 11.68-11.68 0-.18-.01-.36-.02-.54A8.36 8.36 0 0024 5.59a8.32 8.32 0 01-2.54.7z" />
+    </svg>
+  </a>
+</div>
               </div>
 
               {/*<Button
