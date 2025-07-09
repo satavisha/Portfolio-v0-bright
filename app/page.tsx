@@ -94,10 +94,20 @@ export default function Portfolio() {
               >
                 Projects
               </a>
-              <a href="#blogs" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium">
+              <a href="#blogs" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
+              onClick={(e) => {
+    e.preventDefault()
+    document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })
+  }}
+  >
                 Blogs
               </a>
-              <a href="#dance" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium">
+              <a href="#dance" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
+              onClick={(e) => {
+    e.preventDefault()
+    document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })
+  }}
+              >
                 Dance
               </a>
               {/* <Button
