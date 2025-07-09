@@ -241,10 +241,10 @@ export default function Portfolio() {
             </div>
 
             <div className="space-y-8">
-              <h3 className="text-2xl font-bold text-gray-900">Sharing my journey so far.</h3>
+              <h3 className="text-2xl font-bold text-gray-900">Let's connect</h3>
 
               <div className="space-y-6 text-gray-700">
-                <p>Check out my projects</p>
+                <p></p>
 
 <div className="flex items-center space-x-6 mt-4">
   <a
