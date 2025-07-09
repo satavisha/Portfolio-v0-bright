@@ -40,6 +40,7 @@ export default function Portfolio() {
       title: "BitsCrunch Case Study",
       description: "A product case study and building a new feature",
       link: "https://satavisha.notion.site/bitsCrunch-Case-Study-4a7d54ba177c44d59adf8616a4885cb1?source=copy_link",
+      image: "https://satavisha.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e6cc760-0940-49ad-848e-a29f97c99963%2F97dd8b49-e3f1-457c-bc08-9d31c013ddc9%2Fwallpaper.jpg?table=block&id=4a7d54ba-177c-44d5-9adf-8616a4885cb1&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2"
     },
     {
       title: "Performed with the legendary Olga Meos, at Tribal Kazaksthan 2025",
