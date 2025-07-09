@@ -74,7 +74,7 @@ export default function Portfolio() {
   About
 </a>
 <a href="#projects" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium">
-  Projects
+   Projects
 </a>
               <a
                 href="#contact"
