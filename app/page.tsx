@@ -74,9 +74,7 @@ export default function Portfolio() {
               <div className="text-2xl font-bold text-gray-900">Satavisha Mitra</div>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#home" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium">
-                Home
-              </a>
+              
               <a href="#about" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium">
                 About
               </a>
