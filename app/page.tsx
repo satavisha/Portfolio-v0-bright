@@ -359,6 +359,71 @@ export default function Portfolio() {
         </div>
       </section>
 
+{/* Blogs Section */}
+<section id="blogs" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+  <div className="max-w-7xl mx-auto">
+    <div className="text-center mb-16">
+      <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">BLOGS</h2>
+      <div className="flex items-center justify-center space-x-4">
+        <div className="h-px bg-orange-500 w-16"></div>
+        <Star className="h-6 w-6 text-orange-500" />
+        <div className="h-px bg-orange-500 w-16"></div>
+      </div>
+    </div>
+
+    <ul className="space-y-6 text-lg text-gray-900 font-medium">
+      <li>
+        <a href="https://satavisha.notion.site/Product-Management-Parentry-app-Challenge-CoinedOne" 
+           className="hover:text-orange-500 transition-colors duration-200" 
+           target="_blank" rel="noopener noreferrer">
+          🌐 Product Management (Parentry.app) Challenge | CoinedOne
+        </a>
+      </li>
+      <li>
+        <a href="https://satavisha.notion.site/Navigating-the-Product-Maze-A-Guide-to-Being-an-Outstanding-PM" 
+           className="hover:text-orange-500 transition-colors duration-200" 
+           target="_blank" rel="noopener noreferrer">
+          🗺️ Navigating the Product Maze: A Guide to Being an Outstanding PM
+        </a>
+      </li>
+      <li>
+        <a href="https://satavisha.notion.site/Different-flavours-of-Product-Management" 
+           className="hover:text-orange-500 transition-colors duration-200" 
+           target="_blank" rel="noopener noreferrer">
+          ❄️ Different Flavours of Product Management
+        </a>
+      </li>
+      <li>
+        <a href="https://satavisha.notion.site/Maslov-s-hierarchy-of-Needs" 
+           className="hover:text-orange-500 transition-colors duration-200" 
+           target="_blank" rel="noopener noreferrer">
+          🔺 Maslov’s Hierarchy of Needs
+        </a>
+      </li>
+      <li>
+        <a href="https://satavisha.notion.site/Porter-s-5-for-Crypto-industry" 
+           className="hover:text-orange-500 transition-colors duration-200" 
+           target="_blank" rel="noopener noreferrer">
+          🔍 Porter’s 5 for Crypto Industry
+        </a>
+      </li>
+      <li>
+        <a href="https://satavisha.notion.site/Strategy-Framing" 
+           className="hover:text-orange-500 transition-colors duration-200" 
+           target="_blank" rel="noopener noreferrer">
+          🗂️ Strategy Framing
+        </a>
+      </li>
+      <li>
+        <a href="https://satavisha.notion.site/Note-worthy-resources" 
+           className="hover:text-orange-500 transition-colors duration-200" 
+           target="_blank" rel="noopener noreferrer">
+          ✏️ Note Worthy Resources
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
 
 
       {/* Footer */}
