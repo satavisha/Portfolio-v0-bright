@@ -34,9 +34,9 @@ export default function Portfolio() {
       image: "https://satavisha.notion.site/image/attachment%3A0129c1ee-f4a1-478d-9156-55b16c78e60f%3Ab966c999-656a-47be-a326-dfa942290b0f.png?table=block&id=e93e6093-cc1c-478b-9060-7728e8c18943&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2"
     },
     {
-      title: "Tribal Revival 2026",
-      description: "4-day international dance workshop & performance",
-      link: "https://satavisha.notion.site/Tribal-Revival-2026",
+      title: "BitsCrunch Case Study",
+      description: "A product case study and building a new feature",
+      link: "https://satavisha.notion.site/bitsCrunch-Case-Study-4a7d54ba177c44d59adf8616a4885cb1?source=copy_link",
     },
     {
       title: "Crypto for All",
@@ -78,13 +78,13 @@ export default function Portfolio() {
                 href="#experience"
                 className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
               >
-                Works
+                Projects
               </a>
               <a
                 href="#contact"
                 className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
               >
-                Contact
+                Blogs
               </a>
               {/* <Button
                 variant="outline"
