@@ -400,14 +400,24 @@ export default function Portfolio() {
           </div>
 
           <ol className="list-decimal list-inside space-y-2 text-lg text-gray-900 font-medium">
-            <li>
+          <li>
               <a
-                href="https://satavisha.notion.site/Product-Management-Parentry-app-Challenge-CoinedOne"
+                href="https://satavisha.notion.site/Navigating-the-Product-Maze-A-Guide-to-Being-an-Outstanding-Product-Manager-5b0eea81c36b425797c9da317c927b13"
                 className="hover:text-orange-500 transition-colors duration-200"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                🌐 Product Management (Parentry.app) Challenge | CoinedOne
+                Feature enhancement| Qikfox
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://satavisha.notion.site/Product-Management-Parentry-app-Challenge-CoinedOne-7189c474fa8e4e1798d8edd51db111e2"
+                className="hover:text-orange-500 transition-colors duration-200"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Parentry.com feature enhancement | CoinedOne
               </a>
             </li>
             <li>
@@ -417,22 +427,13 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                🗺️ Navigating the Product Maze: A Guide to Being an Outstanding PM
+                Navigating the Product Maze: A Guide to Being an Outstanding PM
               </a>
             </li>
+            
             <li>
               <a
-                href="https://satavisha.notion.site/Different-flavours-of-Product-Management"
-                className="hover:text-orange-500 transition-colors duration-200"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                ❄️ Different Flavours of Product Management
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://satavisha.notion.site/Maslov-s-hierarchy-of-Needs"
+                href="https://satavisha.notion.site/Safe-browsing-Feature-Enhancement-qikfox-6b2f0104bd234815b111b7fecc87409d"
                 className="hover:text-orange-500 transition-colors duration-200"
                 target="_blank"
                 rel="noopener noreferrer"
