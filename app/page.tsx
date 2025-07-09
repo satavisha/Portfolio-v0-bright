@@ -87,6 +87,10 @@ export default function Portfolio() {
               <a
                 href="#projects"
                 className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
+                onClick={(e) => {
+    e.preventDefault()
+    document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })
+  }}
               >
                 Projects
               </a>
