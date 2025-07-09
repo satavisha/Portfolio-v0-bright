@@ -4,7 +4,7 @@ import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Mail, Linkedin, Github, ExternalLink, Star } from "lucide-react"
+import { Linkedin, Github, ExternalLink, Star } from "lucide-react"
 import { useEffect, useState } from "react"
 
 export default function Portfolio() {
@@ -23,15 +23,18 @@ export default function Portfolio() {
     },
     {
       title: "DeCrypt : an AI powered tool for Crypto traders",
-      description: "Blockchain-based platform utilizing a Generative Engine and Retrieval Augmented System to curate insights for users",
+      description:
+        "Blockchain-based platform utilizing a Generative Engine and Retrieval Augmented System to curate insights for users",
       link: "https://satavisha.notion.site/DeCrypt-an-AI-powered-tool-for-Crypto-traders-20c0d6f642c2800094e6c803c5060f39",
-      image: "https://images.unsplash.com/photo-1631603090989-93f9ef6f9d80?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
+      image:
+        "https://images.unsplash.com/photo-1631603090989-93f9ef6f9d80?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800",
     },
     {
       title: "KPHealth - a Health app for Kaiser Permanente",
       description: "Gamified health and wellness app",
       link: "https://satavisha.notion.site/KPHealth-a-Health-app-for-Kaiser-Permanente-e93e6093cc1c478b90607728e8c18943",
-      image: "https://satavisha.notion.site/image/attachment%3A0129c1ee-f4a1-478d-9156-55b16c78e60f%3Ab966c999-656a-47be-a326-dfa942290b0f.png?table=block&id=e93e6093-cc1c-478b-9060-7728e8c18943&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2"
+      image:
+        "https://satavisha.notion.site/image/attachment%3A0129c1ee-f4a1-478d-9156-55b16c78e60f%3Ab966c999-656a-47be-a326-dfa942290b0f.png?table=block&id=e93e6093-cc1c-478b-9060-7728e8c18943&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2",
     },
     {
       title: "BitsCrunch Case Study",
@@ -42,7 +45,8 @@ export default function Portfolio() {
       title: "Performed with the legendary Olga Meos, at Tribal Kazaksthan 2025",
       description: "Performed at Asia's biggest Tribal Fusion Belly Dance Festival",
       link: "https://satavisha.notion.site/Performed-with-the-legendary-Olga-Meos-at-Tribal-Kazaksthan-2025-20c0d6f642c280369d8cc128e4ec71d9",
-      image: "https://satavisha.notion.site/image/attachment%3A1339f8be-c3b3-4d61-a811-ff0f73f2f0fc%3Ame_2.png?table=block&id=20c0d6f6-42c2-8091-aeba-f80d4e4dc7ba&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=660&userId=&cache=v2"
+      image:
+        "https://satavisha.notion.site/image/attachment%3A1339f8be-c3b3-4d61-a811-ff0f73f2f0fc%3Ame_2.png?table=block&id=20c0d6f6-42c2-8091-aeba-f80d4e4dc7ba&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=660&userId=&cache=v2",
     },
     {
       title: "AI + PM Stack",
@@ -71,16 +75,17 @@ export default function Portfolio() {
             <div className="hidden md:flex items-center space-x-8">
               <a href="#home" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium">
                 Home
-             <a href="#about" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium">
-  About
-</a>
-<a href="#projects" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium">
-   Projects
-</a>
+              </a>
+              <a href="#about" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium">
+                About
+              </a>
               <a
-                href="#blogs"
+                href="#projects"
                 className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
               >
+                Projects
+              </a>
+              <a href="#blogs" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium">
                 Blogs
               </a>
               {/* <Button
@@ -120,7 +125,7 @@ export default function Portfolio() {
                     Download Resume
                   </a>
                 </Button>
-               {/* <Button
+                {/* <Button
                   size="lg"
                   variant="outline"
                   className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition-all duration-300 bg-transparent"
@@ -241,58 +246,57 @@ export default function Portfolio() {
               <div className="space-y-6 text-gray-700">
                 <p></p>
 
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
+                  {/* LinkedIn */}
+                  <a
+                    href="https://www.linkedin.com/in/satavisha-mitra/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group text-center"
+                  >
+                    <div className="bg-orange-50 p-6 rounded-lg mb-4 group-hover:bg-orange-100 transition-colors duration-300">
+                      <Linkedin className="h-8 w-8 text-orange-500 mx-auto" />
+                    </div>
+                    <h3 className="font-bold text-gray-900 mb-1">LinkedIn</h3>
+                    <p className="text-gray-600 text-sm">linkedin.com/satavisha-mitra</p>
+                  </a>
 
-<div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
-  {/* LinkedIn */}
-  <a
-    href="https://www.linkedin.com/in/satavisha-mitra/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="group text-center"
-  >
-    <div className="bg-orange-50 p-6 rounded-lg mb-4 group-hover:bg-orange-100 transition-colors duration-300">
-      <Linkedin className="h-8 w-8 text-orange-500 mx-auto" />
-    </div>
-    <h3 className="font-bold text-gray-900 mb-1">LinkedIn</h3>
-    <p className="text-gray-600 text-sm">linkedin.com/satavisha-mitra</p>
-  </a>
+                  {/* GitHub */}
+                  <a
+                    href="https://github.com/satavisha"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group text-center"
+                  >
+                    <div className="bg-orange-50 p-6 rounded-lg mb-4 group-hover:bg-orange-100 transition-colors duration-300">
+                      <Github className="h-8 w-8 text-orange-500 mx-auto" />
+                    </div>
+                    <h3 className="font-bold text-gray-900 mb-1">GitHub</h3>
+                    <p className="text-gray-600 text-sm">github.com/satavisha</p>
+                  </a>
 
-  {/* GitHub */}
-  <a
-    href="https://github.com/satavisha"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="group text-center"
-  >
-    <div className="bg-orange-50 p-6 rounded-lg mb-4 group-hover:bg-orange-100 transition-colors duration-300">
-      <Github className="h-8 w-8 text-orange-500 mx-auto" />
-    </div>
-    <h3 className="font-bold text-gray-900 mb-1">GitHub</h3>
-    <p className="text-gray-600 text-sm">github.com/satavisha</p>
-  </a>
-
-  {/* Twitter / X */}
-  <a
-    href="https://x.com/satavishaMitra"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="group text-center"
-  >
-    <div className="bg-orange-50 p-6 rounded-lg mb-4 group-hover:bg-orange-100 transition-colors duration-300">
-      {/* X logo from SVG */}
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="h-8 w-8 text-orange-500 mx-auto"
-        fill="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path d="M20.293 3H17.41L12 9.177 6.59 3H3.707l7.063 7.763L2.293 21h2.884l6.09-6.7 6.09 6.7h2.884l-8.477-9.788L20.293 3z" />
-      </svg>
-    </div>
-    <h3 className="font-bold text-gray-900 mb-1">X (Twitter)</h3>
-    <p className="text-gray-600 text-sm">x.com/satavishaMitra</p>
-  </a>
-</div>
+                  {/* Twitter / X */}
+                  <a
+                    href="https://x.com/satavishaMitra"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group text-center"
+                  >
+                    <div className="bg-orange-50 p-6 rounded-lg mb-4 group-hover:bg-orange-100 transition-colors duration-300">
+                      {/* X logo from SVG */}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-8 w-8 text-orange-500 mx-auto"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M20.293 3H17.41L12 9.177 6.59 3H3.707l7.063 7.763L2.293 21h2.884l6.09-6.7 6.09 6.7h2.884l-8.477-9.788L20.293 3z" />
+                      </svg>
+                    </div>
+                    <h3 className="font-bold text-gray-900 mb-1">X (Twitter)</h3>
+                    <p className="text-gray-600 text-sm">x.com/satavishaMitra</p>
+                  </a>
+                </div>
               </div>
 
               {/*<Button
@@ -360,64 +364,72 @@ export default function Portfolio() {
         </div>
       </section>
 
-{/* Blogs Section */}
-<section id="blogs" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-  <div className="max-w-7xl mx-auto">
-    <div className="text-center mb-16">
-      <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">BLOGS</h2>
-      <div className="flex items-center justify-center space-x-4">
-        <div className="h-px bg-orange-500 w-16"></div>
-        <Star className="h-6 w-6 text-orange-500" />
-        <div className="h-px bg-orange-500 w-16"></div>
-      </div>
-    </div>
+      {/* Blogs Section */}
+      <section id="blogs" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">BLOGS</h2>
+            <div className="flex items-center justify-center space-x-4">
+              <div className="h-px bg-orange-500 w-16"></div>
+              <Star className="h-6 w-6 text-orange-500" />
+              <div className="h-px bg-orange-500 w-16"></div>
+            </div>
+          </div>
 
-    <ol className="list-decimal list-inside space-y-2 text-lg text-gray-900 font-medium">
-  <li>
-    <a
-      href="https://satavisha.notion.site/Product-Management-Parentry-app-Challenge-CoinedOne"
-      className="hover:text-orange-500 transition-colors duration-200"
-      target="_blank" rel="noopener noreferrer"
-    >
-      🌐 Product Management (Parentry.app) Challenge | CoinedOne
-    </a>
-  </li>
-  <li>
-    <a
-      href="https://satavisha.notion.site/Navigating-the-Product-Maze-A-Guide-to-Being-an-Outstanding-PM"
-      className="hover:text-orange-500 transition-colors duration-200"
-      target="_blank" rel="noopener noreferrer"
-    >
-      🗺️ Navigating the Product Maze: A Guide to Being an Outstanding PM
-    </a>
-  </li>
-  <li>
-    <a
-      href="https://satavisha.notion.site/Different-flavours-of-Product-Management"
-      className="hover:text-orange-500 transition-colors duration-200"
-      target="_blank" rel="noopener noreferrer"
-    >
-      ❄️ Different Flavours of Product Management
-    </a>
-  </li>
-  <li>
-    <a
-      href="https://satavisha.notion.site/Maslov-s-hierarchy-of-Needs"
-      className="hover:text-orange-500 transition-colors duration-200"
-      target="_blank" rel="noopener noreferrer"
-    >
-      🔺 Maslov’s Hierarchy of Needs
-    </a>
-  </li>
-  <li>
-    <a
-      href="https://satavisha.notion.site/Porter-s-5-for-Crypto-industry"
-      className="hover:text-orange-500 transition-colors duration-200"
-      targ
-
-  </div>
-</section>
-
+          <ol className="list-decimal list-inside space-y-2 text-lg text-gray-900 font-medium">
+            <li>
+              <a
+                href="https://satavisha.notion.site/Product-Management-Parentry-app-Challenge-CoinedOne"
+                className="hover:text-orange-500 transition-colors duration-200"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                🌐 Product Management (Parentry.app) Challenge | CoinedOne
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://satavisha.notion.site/Navigating-the-Product-Maze-A-Guide-to-Being-an-Outstanding-PM"
+                className="hover:text-orange-500 transition-colors duration-200"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                🗺️ Navigating the Product Maze: A Guide to Being an Outstanding PM
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://satavisha.notion.site/Different-flavours-of-Product-Management"
+                className="hover:text-orange-500 transition-colors duration-200"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ❄️ Different Flavours of Product Management
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://satavisha.notion.site/Maslov-s-hierarchy-of-Needs"
+                className="hover:text-orange-500 transition-colors duration-200"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                🔺 Maslov’s Hierarchy of Needs
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://satavisha.notion.site/Porter-s-5-for-Crypto-industry"
+                className="hover:text-orange-500 transition-colors duration-200"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                🏭 Porter's 5 for Crypto industry
+              </a>
+            </li>
+          </ol>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="py-8 px-4 sm:px-6 lg:px-8 bg-gray-900 text-white">
