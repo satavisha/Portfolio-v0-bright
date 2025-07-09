@@ -421,7 +421,7 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                🏭 Porter's 5 for Crypto industry
+                Porter's 5 for Crypto industry
               </a>
             </li>
           </ol>
