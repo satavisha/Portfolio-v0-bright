@@ -410,23 +410,13 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Navigating the Product Maze: A Guide to Being an Outstanding PM
+                Favorite product breakdown
               </a>
             </li>
             
             <li>
               <a
-                href="https://satavisha.notion.site/Safe-browsing-Feature-Enhancement-qikfox-6b2f0104bd234815b111b7fecc87409d"
-                className="hover:text-orange-500 transition-colors duration-200"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                🔺 Maslov’s Hierarchy of Needs
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://satavisha.notion.site/Porter-s-5-for-Crypto-industry"
+                href="https://satavisha.notion.site/Porter-s-5-for-Crypto-industry-84a59bcba0324b3f8ae135733a5b9f52"
                 className="hover:text-orange-500 transition-colors duration-200"
                 target="_blank"
                 rel="noopener noreferrer"
