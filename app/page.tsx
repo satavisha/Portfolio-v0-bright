@@ -89,6 +89,9 @@ export default function Portfolio() {
               <a href="#blogs" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium">
                 Blogs
               </a>
+              <a href="#dance" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium">
+                Dance
+              </a>
               {/* <Button
                 variant="outline"
                 className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition-all duration-300 bg-transparent"
