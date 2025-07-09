@@ -432,6 +432,78 @@ export default function Portfolio() {
           </ol>
         </div>
       </section>
+{/* Dance Section */}
+<section id="dance" className="py-20 px-4 sm:px-6 lg:px-8 bg-white scroll-smooth">
+  <div className="max-w-7xl mx-auto">
+    <div className="text-center mb-16">
+      <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">DANCE</h2>
+      <div className="flex items-center justify-center space-x-4">
+        <div className="h-px bg-orange-500 w-16"></div>
+        <Star className="h-6 w-6 text-orange-500" />
+        <div className="h-px bg-orange-500 w-16"></div>
+      </div>
+    </div>
+
+    {/* Scrollable Card Container */}
+    <div className="overflow-x-auto">
+      <div className="flex space-x-6 min-w-full pb-4 snap-x snap-mandatory scroll-smooth">
+        {[
+          {
+            title: "Performed with the legendary Olga Meos, at Tribal Kazaksthan 2025",
+            text: "The Priviledge of collaborating with legends of TFBD at Asia's biggest Tribal Festival",
+            link: "https://satavisha.notion.site/Performed-with-the-legendary-Olga-Meos-at-Tribal-Kazaksthan-2025-20c0d6f642c280369d8cc128e4ec71d9",
+            image: "https://satavisha.notion.site/image/attachment%3A1339f8be-c3b3-4d61-a811-ff0f73f2f0fc%3Ame_2.png?table=block&id=20c0d6f6-42c2-8091-aeba-f80d4e4dc7ba&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=580&userId=&cache=v2",
+          },
+          {
+            title: "An ode to Resilience",
+            text: "Storytelling through movement language",
+            link: "https://satavisha.notion.site/Performed-at-NrityaKosh-Bengaluru-2070d6f642c2808eaba1ce3b91a3fcd1",
+            image: "https://satavisha.notion.site/image/attachment%3A462348af-bf63-4356-8e43-3355c9c0b324%3AGOT.jpg?table=block&id=2070d6f6-42c2-80c9-80bd-f8e267db337d&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=1420&userId=&cache=v2",
+          },
+          {
+            title: "Tribal Revival 2025",
+            text: "Building community and learning at Tribal Revival 2025",
+            link: "https://satavisha.notion.site/Performed-and-collaborated-at-Tribal-Revival-Bengaluru-2025-20c0d6f642c280b180c1c915da2b0f60",
+            image: "https://satavisha.notion.site/image/attachment%3A5c847001-8b6f-43c3-af8b-2476744ab62c%3Acerti.jpeg?table=block&id=20c0d6f6-42c2-8051-ba7b-d12665cfced0&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=1420&userId=&cache=v2",
+          },
+          {
+            title: "Movement Meditation",
+            text: "A meditation app for people who like to move",
+            link: "https://satavisha.notion.site/Dance-Meditation-20c0d6f642c28009869fff538aff9080?pvs=74",
+            image: "https://satavisha.notion.site/image/https%3A%2F%2Fthemindsjournal.com%2Fwp-content%2Fuploads%2F2024%2F09%2FSufi-Whirling-Meditation-Cosmic-Dance-Journey-1.jpg?table=block&id=20c0d6f6-42c2-8009-869f-ff538aff9080&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2",
+          },
+        ].map((item, index) => (
+          <div
+            key={index}
+            className="min-w-[300px] md:min-w-[500px] bg-gray-50 rounded-lg shadow-lg flex snap-center overflow-hidden"
+          >
+            <div className="flex flex-col justify-between p-6 w-2/3">
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">{item.title}</h3>
+                <p className="text-gray-700 mb-4">{item.text}</p>
+              </div>
+              <a
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-orange-500 hover:underline font-semibold"
+              >
+                Read full blog →
+              </a>
+            </div>
+            <div className="w-1/3">
+              <img
+                src={item.image}
+                alt={item.title}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Footer */}
       <footer className="py-8 px-4 sm:px-6 lg:px-8 bg-gray-900 text-white">
