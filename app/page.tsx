@@ -13,6 +13,18 @@ export default function Portfolio() {
   useEffect(() => {
     setIsVisible(true)
   }, [])
+
+  const downloadResume = () => {
+    // Create a link element to download the existing PDF file
+    const link = document.createElement("a")
+    link.href = "/resume.pdf" // This points to the PDF in your public folder
+    link.download = "Satavisha_Mitra_Resume.pdf" // This sets the download filename
+    link.target = "_blank" // Open in new tab as fallback
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
+
   const projects = [
     {
       title: "OTT For Bharat",
@@ -118,15 +130,14 @@ export default function Portfolio() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="/resume.pdf" download="Satavisha_Mitra_Resume.pdf">
-                  <Button
-                    size="lg"
-                    className="border-2 bg-gray-900 text-white hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
-                  >
-                    <Download className="h-5 w-5" />
-                    Download Resume
-                  </Button>
-                </a>
+                <Button
+                  onClick={downloadResume}
+                  size="lg"
+                  className="border-2 bg-gray-900 text-white hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+                >
+                  <Download className="h-5 w-5" />
+                  Download Resume
+                </Button>
 
                 {/* <Button
                   size="lg"
@@ -208,11 +219,11 @@ export default function Portfolio() {
                 </p>
                 <p>
                   Since discovering Tribal Fusion in 2016, my journey has taken me across India and beyond—learning,
-                  performing, and teaching. TFBD feels like a magical forest I’m still at the periphery! There’s a lot
+                  performing, and teaching. TFBD feels like a magical forest I'm still at the periphery! There's a lot
                   to explore, a lot to learn!
                 </p>
                 <p>
-                  Outside dance, I’m a mythology nerd, a huge fan of Devdutt Pattanaik’s work , and I like to illustrate
+                  Outside dance, I'm a mythology nerd, a huge fan of Devdutt Pattanaik's work , and I like to illustrate
                   stories.
                 </p>
               </div>
