@@ -13,12 +13,12 @@ export default function Portfolio() {
   useEffect(() => {
     setIsVisible(true)
   }, [])
-
+  {/* Download Resume button*/}
   const downloadResume = () => {
     // Create a link element to download the existing PDF file
     const link = document.createElement("a")
-    link.href = "/resume.pdf" // This points to the PDF in your public folder
-    link.download = "Satavisha_Mitra_Resume.pdf" // This sets the download filename
+    link.href = "/Satavisha Mitra CV.pdf" // This points to the PDF in your public folder
+    link.download = "Satavisha_Mitra.pdf" // This sets the download filename
     link.target = "_blank" // Open in new tab as fallback
     document.body.appendChild(link)
     link.click()
