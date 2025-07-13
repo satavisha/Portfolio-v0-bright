@@ -16,7 +16,7 @@ export default function Portfolio() {
  const downloadResume = () => {
   const link = document.createElement("a")
   link.href = "/Satavisha_Mitra_CV.pdf"
-  link.download = "Satavisha_Mitra_CV.pdf"
+  link.download = "Satavisha Mitra CV.pdf"
   link.target = "_blank"
   document.body.appendChild(link)
   link.click()
