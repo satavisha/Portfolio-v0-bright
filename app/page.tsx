@@ -32,7 +32,7 @@ export default function Portfolio() {
         "https://satavisha.notion.site/image/attachment%3Abaf198dc-30fb-4cc8-b836-04923e9300ed%3Alok_learn_logo_2.png?table=block&id=20c0d6f6-42c2-80db-872b-fa0a675ff0f8&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2",
     },
     {
-      title: "DeCrypt : an AI powered tool for Crypto traders",
+      title: "DefiGPT : an AI powered tool for Crypto traders",
       description:
         "Blockchain-based platform utilizing a Generative Engine and Retrieval Augmented System to curate insights for users",
       link: "https://satavisha.notion.site/DeCrypt-an-AI-powered-tool-for-Crypto-traders-20c0d6f642c2800094e6c803c5060f39",
