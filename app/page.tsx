@@ -470,7 +470,7 @@ export default function Portfolio() {
                   text: "Building community and learning at Tribal Revival 2025",
                   link: "https://satavisha.notion.site/Performed-and-collaborated-at-Tribal-Revival-Bengaluru-2025-20c0d6f642c280b180c1c915da2b0f60",
                   image:
-                    "https://satavisha.notion.site/image/attachment%3A189f0767-4fb4-4586-8192-2b685166f2f1%3Alogo.png?table=block&id=23d0d6f6-42c2-803f-b8aa-ed5d4abb0a01&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2"
+                    "https://satavisha.notion.site/image/attachment%3A5c847001-8b6f-43c3-af8b-2476744ab62c%3Acerti.jpeg?table=block&id=20c0d6f6-42c2-8051-ba7b-d12665cfced0&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=1260&userId=&cache=v2"
                 },  
                 {
                   title: "Community building in TFBD via TFBD Map",
@@ -484,7 +484,7 @@ export default function Portfolio() {
                   text: "A meditation app for people who like to move",
                   link: "https://satavisha.notion.site/Dance-Meditation-20c0d6f642c28009869fff538aff9080?pvs=74",
                   image:
-                    "https://img.notionusercontent.com/s3/prod-files-secure%2F0e6cc760-0940-49ad-848e-a29f97c99963%2F189f0767-4fb4-4586-8192-2b685166f2f1%2Flogo.png/size/w=2000?exp=1753738864&sig=YgzOk-8Ebcht3UyUp3_KCev_WHpV_t5pt0q-6fE5rWU&id=23d0d6f6-42c2-803f-b8aa-ed5d4abb0a01&table=block",
+                    "https://satavisha.notion.site/image/https%3A%2F%2Fthemindsjournal.com%2Fwp-content%2Fuploads%2F2024%2F09%2FSufi-Whirling-Meditation-Cosmic-Dance-Journey-1.jpg?id=20c0d6f6-42c2-8009-869f-ff538aff9080&table=block&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2"
                 },
               ].map((item, index) => (
                 <div
