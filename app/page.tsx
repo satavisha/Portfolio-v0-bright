@@ -477,7 +477,7 @@ export default function Portfolio() {
                   text: "Some ideas for connecting the world's dance community",
                   link: "https://satavisha.notion.site/TFBD-Map-23d0d6f642c2803fb8aaed5d4abb0a01",
                   image:
-                    "https://satavisha.notion.site/image/attachment%3A189f0767-4fb4-4586-8192-2b685166f2f1%3Alogo.png?table=block&id=23d0d6f6-42c2-803f-b8aa-ed5d4abb0a01&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2",
+                    "https://satavisha.notion.site/image/attachment%3A189f0767-4fb4-4586-8192-2b685166f2f1%3Alogo.png?table=block&id=23d0d6f6-42c2-803f-b8aa-ed5d4abb0a01&spaceId=0e6cc760-0940-49ad-848e-a29f97c99963&width=2000&userId=&cache=v2"
                 },
                 {
                   title: "Movement Meditation",
