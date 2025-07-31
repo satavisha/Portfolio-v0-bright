@@ -413,7 +413,7 @@ export default function Portfolio() {
             </li>
             <li>
               <a
-                href="https://satavisha.notion.site/Navigating-the-Product-Maze-A-Guide-to-Being-an-Outstanding-PM"
+                href="https://satavisha.notion.site/Favourite-Product-breakdown-b37c68d85aaa4ca880be504778edb400?source=copy_link"
                 className="hover:text-orange-500 transition-colors duration-200"
                 target="_blank"
                 rel="noopener noreferrer"
