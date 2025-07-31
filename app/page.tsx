@@ -411,6 +411,16 @@ export default function Portfolio() {
                 Parentry.com feature enhancement | CoinedOne
               </a>
             </li>
+             <li>
+              <a
+                href="https://satavisha.notion.site/Anti-Sniper-and-rug-pull-tool-2400d6f642c280c2b45ffaf08dc74d45?source=copy_link"
+                className="hover:text-orange-500 transition-colors duration-200"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Anti-sniping anti-rug pull tool for crypto launchpads
+              </a>
+            </li>
             <li>
               <a
                 href="https://satavisha.notion.site/Favourite-Product-breakdown-b37c68d85aaa4ca880be504778edb400?source=copy_link"
