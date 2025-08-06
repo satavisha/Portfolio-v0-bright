@@ -213,7 +213,7 @@ export default function Portfolio() {
                 <p>I am a developer turned Product Manager, a Tribal Fusion Belly Dancer and a mythology nerd!</p>{" "}
                 <p>
                   Raised in a culturally rich home with an Indian Classical singer mother, I was immersed in the arts
-                  early—dabbling in everything from painting to piano—but it was dance that truly moved me.
+                  early, dabbling in everything from painting to piano, but it was dance that truly moved me.
                 </p>
                 <p>
                   Since discovering Tribal Fusion in 2016, my journey has taken me across India and beyond—learning,
