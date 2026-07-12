@@ -534,7 +534,7 @@ export default function Portfolio() {
         <div className="max-w-7xl mx-auto text-center">
           <div className="flex items-center justify-center space-x-2 mb-4">
             <Star className="h-5 w-5 text-orange-500" />
-            <p className="text-gray-300">Thanks for viewing my portfolio!</p>
+            <p className="text-gray-300">Thanks for viewing my portfolio!!</p>
             <Star className="h-5 w-5 text-orange-500" />
           </div>
         </div>
