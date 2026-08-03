@@ -1,0 +1,14 @@
+[
+  {
+    "blockId": "20c0d6f6-42c2-8051-ba7b-d12665cfced0",
+    "kind": "image",
+    "caption": "certi.jpeg",
+    "source": "attachment:5c847001-8b6f-43c3-af8b-2476744ab62c:certi.jpeg",
+    "proposedLocalPath": "assets/01-20c0d6f6-42c2-8051-ba7b-d12665cfced0.jpeg",
+    "download": {
+      "status": "ok",
+      "bytes": 124814,
+      "contentType": "image/jpeg"
+    }
+  }
+]

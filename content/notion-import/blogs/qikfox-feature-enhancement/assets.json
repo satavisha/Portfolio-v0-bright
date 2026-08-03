@@ -1,0 +1,26 @@
+[
+  {
+    "blockId": "5b0eea81-c36b-4257-97c9-da317c927b13",
+    "kind": "cover",
+    "caption": "Navigating the Product Maze: A Guide to Being an Outstanding Product Manager cover",
+    "source": "https://images.unsplash.com/photo-1484910292437-025e5d13ce87?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb",
+    "proposedLocalPath": "assets/00-cover.jpg",
+    "download": {
+      "status": "ok",
+      "bytes": 265721,
+      "contentType": "image/jpeg"
+    }
+  },
+  {
+    "blockId": "5b0eea81-c36b-4257-97c9-da317c927b13",
+    "kind": "file",
+    "caption": "https://sriramk.com/memos/Ben_Horowitz_Good_Product_Manager_Bad_Product_Manager.pdf",
+    "source": "https://sriramk.com/memos/Ben_Horowitz_Good_Product_Manager_Bad_Product_Manager.pdf",
+    "proposedLocalPath": "assets/02-5b0eea81-c36b-4257-97c9-da317c927b13.pdf",
+    "download": {
+      "status": "ok",
+      "bytes": 119339,
+      "contentType": "application/pdf"
+    }
+  }
+]

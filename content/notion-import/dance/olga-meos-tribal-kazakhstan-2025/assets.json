@@ -1,0 +1,26 @@
+[
+  {
+    "blockId": "20c0d6f6-42c2-8048-acd4-cad65f17c74a",
+    "kind": "image",
+    "caption": "olga.jpg",
+    "source": "attachment:2e8b4bcc-d81f-4aee-9fea-19efb49bbd12:olga.jpg",
+    "proposedLocalPath": "assets/01-20c0d6f6-42c2-8048-acd4-cad65f17c74a.jpg",
+    "download": {
+      "status": "ok",
+      "bytes": 122446,
+      "contentType": "image/jpeg"
+    }
+  },
+  {
+    "blockId": "20c0d6f6-42c2-8091-aeba-f80d4e4dc7ba",
+    "kind": "image",
+    "caption": "me 2.png",
+    "source": "attachment:1339f8be-c3b3-4d61-a811-ff0f73f2f0fc:me_2.png",
+    "proposedLocalPath": "assets/02-20c0d6f6-42c2-8091-aeba-f80d4e4dc7ba.png",
+    "download": {
+      "status": "ok",
+      "bytes": 1694719,
+      "contentType": "image/png"
+    }
+  }
+]
