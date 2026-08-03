@@ -1,0 +1,1160 @@
+{
+  "fetchedAt": "2026-08-03T14:56:02.117Z",
+  "source": "Public Notion pages linked from app/page.tsx",
+  "totals": {
+    "documents": 13,
+    "successful": 13,
+    "failed": 0,
+    "blocks": 398,
+    "assets": 43
+  },
+  "documents": [
+    {
+      "status": "ok",
+      "section": "projects",
+      "slug": "ott-for-bharat",
+      "cardTitle": "OTT For Bharat",
+      "sourceUrl": "https://satavisha.notion.site/Lok-Learn-an-OTT-for-Bharat-20c0d6f642c280db872bfa0a675ff0f8",
+      "pageId": "20c0d6f6-42c2-80db-872b-fa0a675ff0f8",
+      "notionTitle": "Lok Learn - an OTT for Bharat",
+      "createdAt": "2025-06-08T19:52:27.098Z",
+      "updatedAt": "2025-07-05T14:02:12.507Z",
+      "markdownPath": "content/notion-import/projects/ott-for-bharat/index.md",
+      "blockCount": 73,
+      "blockTypes": {
+        "bulleted_list": 16,
+        "callout": 1,
+        "column": 5,
+        "column_list": 2,
+        "external_object_instance": 1,
+        "header": 1,
+        "image": 12,
+        "numbered_list": 14,
+        "sub_sub_header": 8,
+        "text": 13
+      },
+      "assetCount": 14,
+      "downloadedAssetCount": 14,
+      "failedAssetCount": 0,
+      "assets": [
+        {
+          "blockId": "20c0d6f6-42c2-80db-872b-fa0a675ff0f8",
+          "kind": "cover",
+          "caption": "Lok Learn - an OTT for Bharat cover",
+          "source": "attachment:baf198dc-30fb-4cc8-b836-04923e9300ed:lok_learn_logo_2.png",
+          "proposedLocalPath": "assets/00-cover.png",
+          "download": {
+            "status": "ok",
+            "bytes": 436339,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "20c0d6f6-42c2-80db-872b-fa0a675ff0f8",
+          "kind": "file",
+          "caption": "Lok Learn - OTT platform for Bharat _ Strategy and PRD by Satavisha Mitra.pdf",
+          "source": "attachment:235225d2-9874-4796-9652-07e4d8947bcf:Lok_Learn_-_OTT_platform_for_Bharat___Strategy_and_PRD_by_Satavisha_Mitra.pdf",
+          "proposedLocalPath": "assets/02-20c0d6f6-42c2-80db-872b-fa0a675ff0f8.pdf",
+          "download": {
+            "status": "ok",
+            "bytes": 4299554,
+            "contentType": "application/pdf"
+          }
+        },
+        {
+          "blockId": "20c0d6f6-42c2-8006-a659-f57c7e901d71",
+          "kind": "image",
+          "caption": "image.png",
+          "source": "attachment:35f2c12c-0233-4db5-ba4a-140016bf9ff4:image.png",
+          "proposedLocalPath": "assets/03-20c0d6f6-42c2-8006-a659-f57c7e901d71.png",
+          "download": {
+            "status": "ok",
+            "bytes": 47235,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "20c0d6f6-42c2-801b-8607-fc5c6bb92f03",
+          "kind": "image",
+          "caption": "image.png",
+          "source": "attachment:59589ae1-fc49-4717-9e41-2255fca76121:image.png",
+          "proposedLocalPath": "assets/04-20c0d6f6-42c2-801b-8607-fc5c6bb92f03.png",
+          "download": {
+            "status": "ok",
+            "bytes": 107650,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "20c0d6f6-42c2-80b9-a584-daa93cc4a82f",
+          "kind": "image",
+          "caption": "lok learn logo.png",
+          "source": "attachment:24b16404-4ea2-4893-a3a9-1a83072726b5:lok_learn_logo.png",
+          "proposedLocalPath": "assets/05-20c0d6f6-42c2-80b9-a584-daa93cc4a82f.png",
+          "download": {
+            "status": "ok",
+            "bytes": 339810,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "20c0d6f6-42c2-801a-ab67-d05a41bd8199",
+          "kind": "image",
+          "caption": "image.png",
+          "source": "attachment:af720e93-0abd-4959-a9a2-1a0b2ab1162b:image.png",
+          "proposedLocalPath": "assets/06-20c0d6f6-42c2-801a-ab67-d05a41bd8199.png",
+          "download": {
+            "status": "ok",
+            "bytes": 130886,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "2270d6f6-42c2-8024-bd35-fb4aae0dc030",
+          "kind": "image",
+          "caption": "image.png",
+          "source": "attachment:40155bac-e41d-4cfb-a8f1-1d736602ab0e:image.png",
+          "proposedLocalPath": "assets/07-2270d6f6-42c2-8024-bd35-fb4aae0dc030.png",
+          "download": {
+            "status": "ok",
+            "bytes": 86227,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "2270d6f6-42c2-806d-a6d2-df9409b1b8ed",
+          "kind": "image",
+          "caption": "image.png",
+          "source": "attachment:cfa99f2c-f023-4cc7-a9e4-07c42b509944:image.png",
+          "proposedLocalPath": "assets/08-2270d6f6-42c2-806d-a6d2-df9409b1b8ed.png",
+          "download": {
+            "status": "ok",
+            "bytes": 102099,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "2270d6f6-42c2-800e-b29f-def0b0d7c6df",
+          "kind": "image",
+          "caption": "image.png",
+          "source": "attachment:d89d0c8c-ade4-49d0-afe9-da4b4a5cafa8:image.png",
+          "proposedLocalPath": "assets/09-2270d6f6-42c2-800e-b29f-def0b0d7c6df.png",
+          "download": {
+            "status": "ok",
+            "bytes": 37418,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "2270d6f6-42c2-8032-b143-d9a7ba0693c5",
+          "kind": "image",
+          "caption": "image.png",
+          "source": "attachment:82e76b3c-055e-414d-8a9b-67786aca6d19:image.png",
+          "proposedLocalPath": "assets/10-2270d6f6-42c2-8032-b143-d9a7ba0693c5.png",
+          "download": {
+            "status": "ok",
+            "bytes": 314620,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "2270d6f6-42c2-8013-9aea-f1c1167965a0",
+          "kind": "image",
+          "caption": "image.png",
+          "source": "attachment:dfd11a79-0f94-49c3-887b-32ce3f683a0d:image.png",
+          "proposedLocalPath": "assets/11-2270d6f6-42c2-8013-9aea-f1c1167965a0.png",
+          "download": {
+            "status": "ok",
+            "bytes": 91668,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "2270d6f6-42c2-80b0-b106-f9ef23907c6b",
+          "kind": "image",
+          "caption": "image.png",
+          "source": "attachment:e5a242eb-a729-404c-af35-5631720f69bf:image.png",
+          "proposedLocalPath": "assets/12-2270d6f6-42c2-80b0-b106-f9ef23907c6b.png",
+          "download": {
+            "status": "ok",
+            "bytes": 76808,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "2270d6f6-42c2-80eb-9baf-ddf162cdbef2",
+          "kind": "image",
+          "caption": "image.png",
+          "source": "attachment:9e1e3db2-8d49-4aac-bd13-5120402adf86:image.png",
+          "proposedLocalPath": "assets/13-2270d6f6-42c2-80eb-9baf-ddf162cdbef2.png",
+          "download": {
+            "status": "ok",
+            "bytes": 77038,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "2270d6f6-42c2-8041-9d49-fa03471f9917",
+          "kind": "image",
+          "caption": "image.png",
+          "source": "attachment:ae6de2e4-2757-4878-8cd2-35aa0730c978:image.png",
+          "proposedLocalPath": "assets/14-2270d6f6-42c2-8041-9d49-fa03471f9917.png",
+          "download": {
+            "status": "ok",
+            "bytes": 89000,
+            "contentType": "image/png"
+          }
+        }
+      ],
+      "externalLinks": [
+        "https://docs.google.com/forms/d/e/1FAIpQLSflVrB4xg7BChhdq3qYJnCk9V9Dz9GdHoGE5r9YNNLT1vT0nw/viewform",
+        "https://www.figma.com/proto/x88ltDVgJLBiCcFZYmi2G0/OTT-for-Bharat?node-id=8-43&p=f&t=J6IEPxOUnB1HZeMc-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1",
+        "https://www.figma.com/proto/x88ltDVgJLBiCcFZYmi2G0/OTT-for-Bharat?node-id=8-43&t=0icI9175nqzZeu3c-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
+      ],
+      "unsupportedBlockTypes": [],
+      "embeddedCollections": [],
+      "collectionWarnings": [],
+      "properties": [
+        {
+          "key": "Ivfi",
+          "value": "Entertainment"
+        },
+        {
+          "key": "qyJo",
+          "value": "Lok Learn - OTT platform for Bharat _ Strategy and PRD by Satavisha Mitra.pdf"
+        },
+        {
+          "key": "fff190f1-dc1d-40c1-bb10-4ffef06c54ce",
+          "value": "Lok Learn - Prototype"
+        }
+      ],
+      "fetchComplete": true
+    },
+    {
+      "status": "ok",
+      "section": "projects",
+      "slug": "defigpt-crypto-traders",
+      "cardTitle": "DefiGPT: an AI powered tool for Crypto traders",
+      "sourceUrl": "https://satavisha.notion.site/DeCrypt-an-AI-powered-tool-for-Crypto-traders-20c0d6f642c2800094e6c803c5060f39",
+      "pageId": "20c0d6f6-42c2-8000-94e6-c803c5060f39",
+      "notionTitle": "Defi GPT: from blockchain noise to actionable insights; an AI powered tool for Crypto traders",
+      "createdAt": "2025-06-08T16:42:01.671Z",
+      "updatedAt": "2025-07-31T12:29:04.677Z",
+      "markdownPath": "content/notion-import/projects/defigpt-crypto-traders/index.md",
+      "blockCount": 22,
+      "blockTypes": {
+        "callout": 1,
+        "collection_view": 1,
+        "figma": 1,
+        "image": 2,
+        "quote": 1,
+        "sub_header": 3,
+        "sub_sub_header": 4,
+        "text": 9
+      },
+      "assetCount": 3,
+      "downloadedAssetCount": 3,
+      "failedAssetCount": 0,
+      "assets": [
+        {
+          "blockId": "20c0d6f6-42c2-8000-94e6-c803c5060f39",
+          "kind": "cover",
+          "caption": "Defi GPT: from blockchain noise to actionable insights; an AI powered tool for Crypto traders cover",
+          "source": "attachment:43ce375d-fd28-4328-9ac3-24a57669b181:defi_gpt_project_image_used_in_notion_2.png",
+          "proposedLocalPath": "assets/00-cover.png",
+          "download": {
+            "status": "ok",
+            "bytes": 1537366,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "20c0d6f6-42c2-8066-b2ad-deab4903396f",
+          "kind": "image",
+          "caption": "g.png",
+          "source": "attachment:8ac58808-8697-4d3e-ab14-d63a0fca5993:g.png",
+          "proposedLocalPath": "assets/02-20c0d6f6-42c2-8066-b2ad-deab4903396f.png",
+          "download": {
+            "status": "ok",
+            "bytes": 1331298,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "20c0d6f6-42c2-810b-95bc-ce3271f1fe14",
+          "kind": "image",
+          "caption": "Untitled",
+          "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/e1d332b2-bba8-47bc-8118-31bbe53a6b3f/Untitled.png",
+          "proposedLocalPath": "assets/03-20c0d6f6-42c2-810b-95bc-ce3271f1fe14.png",
+          "download": {
+            "status": "ok",
+            "bytes": 113369,
+            "contentType": "image/png"
+          }
+        }
+      ],
+      "externalLinks": [
+        "https://www.figma.com/proto/TjES27Fx5EXwntbP7lbLON/ChatGPT-Project?node-id=8-422&starting-point-node-id=8%3A422&t=vaFBEKX0AdHfgu3p-1",
+        "https://www.figma.com/proto/TjES27Fx5EXwntbP7lbLON/ChatGPT-Project?type=design&t=CyjweznMCT2PkuCB-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=8%3A422&show-proto-sidebar=1",
+        "https://www.figma.com/proto/TjES27Fx5EXwntbP7lbLON/ChatGPT-Project?type=design&t=CyjweznMCT2PkuCB-0&scaling=scale-down&page-id=0:1&starting-point-node-id=8:422&show-proto-sidebar=1",
+        "https://yudai.app/#"
+      ],
+      "unsupportedBlockTypes": [],
+      "embeddedCollections": [
+        {
+          "collectionId": "20c0d6f6-42c2-810b-9b23-000bc46c43e5",
+          "collectionViewId": "20c0d6f6-42c2-8120-9f83-000cfe84f8e3",
+          "name": "Calculation metric",
+          "rowCount": 5
+        }
+      ],
+      "collectionWarnings": [],
+      "properties": [
+        {
+          "key": "Ivfi",
+          "value": "Crypto"
+        },
+        {
+          "key": "`ArZ",
+          "value": "Link to prototype"
+        },
+        {
+          "key": "11081e36-b48e-4dbe-bd61-4718160a6358",
+          "value": "Help crypto enthusiasts take data driven decisions"
+        },
+        {
+          "key": "ee17981f-8943-4022-a70d-3cedbae763cb",
+          "value": "Product Design"
+        },
+        {
+          "key": "fff190f1-dc1d-40c1-bb10-4ffef06c54ce",
+          "value": "DeCrypt - Prototype"
+        }
+      ],
+      "fetchComplete": true
+    },
+    {
+      "status": "ok",
+      "section": "projects",
+      "slug": "kphealth",
+      "cardTitle": "KPHealth - a Health app for Kaiser Permanente",
+      "sourceUrl": "https://satavisha.notion.site/KPHealth-a-Health-app-for-Kaiser-Permanente-e93e6093cc1c478b90607728e8c18943",
+      "pageId": "e93e6093-cc1c-478b-9060-7728e8c18943",
+      "notionTitle": "KPHealth - a Health app for Kaiser Permanente",
+      "createdAt": "2023-11-01T21:34:03.558Z",
+      "updatedAt": "2025-07-08T10:45:47.489Z",
+      "markdownPath": "content/notion-import/projects/kphealth/index.md",
+      "blockCount": 82,
+      "blockTypes": {
+        "bulleted_list": 10,
+        "column": 10,
+        "column_list": 5,
+        "embed": 1,
+        "file": 3,
+        "image": 4,
+        "numbered_list": 6,
+        "sub_header": 8,
+        "sub_sub_header": 5,
+        "text": 30
+      },
+      "assetCount": 8,
+      "downloadedAssetCount": 8,
+      "failedAssetCount": 0,
+      "assets": [
+        {
+          "blockId": "e93e6093-cc1c-478b-9060-7728e8c18943",
+          "kind": "cover",
+          "caption": "KPHealth - a Health app for Kaiser Permanente cover",
+          "source": "attachment:0129c1ee-f4a1-478d-9156-55b16c78e60f:b966c999-656a-47be-a326-dfa942290b0f.png",
+          "proposedLocalPath": "assets/00-cover.png",
+          "download": {
+            "status": "ok",
+            "bytes": 1415573,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "59a8d940-217c-4d51-b255-537324153613",
+          "kind": "file",
+          "caption": "KPhealth_Product Pitch.pdf",
+          "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/7c1c10ec-479e-4c69-9a55-481ea6f5af8c/KPhealth_Product_Pitch.pdf",
+          "proposedLocalPath": "assets/02-59a8d940-217c-4d51-b255-537324153613.pdf",
+          "download": {
+            "status": "ok",
+            "bytes": 251100,
+            "contentType": "application/pdf"
+          }
+        },
+        {
+          "blockId": "5a7b8634-0117-43fd-a0a7-8dc4805916b1",
+          "kind": "file",
+          "caption": "KPHealth_ Developing the Product.pdf",
+          "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/e133b7df-2d55-49a2-8a04-050705b6a41d/KPHealth__Developing_the_Product.pdf",
+          "proposedLocalPath": "assets/03-5a7b8634-0117-43fd-a0a7-8dc4805916b1.pdf",
+          "download": {
+            "status": "ok",
+            "bytes": 590423,
+            "contentType": "application/pdf"
+          }
+        },
+        {
+          "blockId": "0359eb46-cbe6-4b87-b245-1c0b8f9473f5",
+          "kind": "file",
+          "caption": "KPhealth_satavisha.pdf",
+          "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/13682e10-1880-4b91-b7f4-f58631cf6c1a/KPhealth_satavisha.pdf",
+          "proposedLocalPath": "assets/04-0359eb46-cbe6-4b87-b245-1c0b8f9473f5.pdf",
+          "download": {
+            "status": "ok",
+            "bytes": 251100,
+            "contentType": "application/pdf"
+          }
+        },
+        {
+          "blockId": "b9432b40-2deb-4059-96fc-8c007c4e87e3",
+          "kind": "image",
+          "caption": "K P screenshot.png",
+          "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/46492539-7a31-4aa0-9a8b-36df380d8b83/K_P_screenshot.png",
+          "proposedLocalPath": "assets/05-b9432b40-2deb-4059-96fc-8c007c4e87e3.png",
+          "download": {
+            "status": "ok",
+            "bytes": 85532,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "3cf8cecb-e5ad-4f7c-8143-60a8d40bde3e",
+          "kind": "image",
+          "caption": "Average expenditure per capita of US: $11K [7]",
+          "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/1d5bacd5-027c-4963-ad1d-644899e7fe20/av.png",
+          "proposedLocalPath": "assets/06-3cf8cecb-e5ad-4f7c-8143-60a8d40bde3e.png",
+          "download": {
+            "status": "ok",
+            "bytes": 82276,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "8360559f-4280-4fd5-80ff-b96e24c2c004",
+          "kind": "image",
+          "caption": "table.png",
+          "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/692e4b1e-c547-49b1-9f9d-70833f8e0d99/table.png",
+          "proposedLocalPath": "assets/07-8360559f-4280-4fd5-80ff-b96e24c2c004.png",
+          "download": {
+            "status": "ok",
+            "bytes": 9914,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "aa8ce2e6-64da-4f39-a936-99986f4f7329",
+          "kind": "image",
+          "caption": "pngtree-business-man-looking-with-binoculars-on-the-top-of-mountain-png-image_6133720.png",
+          "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/03488798-9894-44b5-9c0b-02649b747ef6/pngtree-business-man-looking-with-binoculars-on-the-top-of-mountain-png-image_6133720.png",
+          "proposedLocalPath": "assets/08-aa8ce2e6-64da-4f39-a936-99986f4f7329.png",
+          "download": {
+            "status": "ok",
+            "bytes": 8356,
+            "contentType": "image/png"
+          }
+        }
+      ],
+      "externalLinks": [
+        "/e93e6093cc1c478b90607728e8c18943?pvs=25",
+        "https://diabetesresearch.org/diabetes-statistics/",
+        "https://docs.google.com/spreadsheets/d/13-kPSwprTsfEO1TGGxZ8ZOPCeCSykbPHZD4dcTRuzUU/edit#gid=158883148",
+        "https://pubmed.ncbi.nlm.nih.gov/29567642/",
+        "https://www.cdc.gov/diabetes/basics/prediabetes.html",
+        "https://www.figma.com/proto/WkYekgiDDk23svb5x0H11o/KPHealth?node-id=104-89&p=f&t=15S0wOxgw8asluBG-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=104%3A89",
+        "https://www.figma.com/proto/WkYekgiDDk23svb5x0H11o/Untitled?type=design&node-id=104-89&t=V6BBEyyDVtZ6vVlh-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=104%3A89",
+        "https://www.figma.com/proto/WkYekgiDDk23svb5x0H11o?embed_host=notion&kind=&node-id=104-89&page-id=0:1&scaling=scale-down&starting-point-node-id=104:89&t=V6BBEyyDVtZ6vVlh-0&type=design"
+      ],
+      "unsupportedBlockTypes": [],
+      "embeddedCollections": [],
+      "collectionWarnings": [],
+      "properties": [
+        {
+          "key": "Ivfi",
+          "value": "Health Care"
+        },
+        {
+          "key": "TJ[]",
+          "value": "Kaiser Permanente aims to enhance patient well-being and reduce costs by introducing a mobile app for preventive care, targeting conditions like type 2 diabetes."
+        },
+        {
+          "key": "`ArZ",
+          "value": "Link to the prototype"
+        },
+        {
+          "key": "ee17981f-8943-4022-a70d-3cedbae763cb",
+          "value": "PRD"
+        },
+        {
+          "key": "fff190f1-dc1d-40c1-bb10-4ffef06c54ce",
+          "value": "KPHealth - Prototype"
+        }
+      ],
+      "fetchComplete": true
+    },
+    {
+      "status": "ok",
+      "section": "blogs",
+      "slug": "qikfox-feature-enhancement",
+      "cardTitle": "Feature enhancement | Qikfox",
+      "sourceUrl": "https://satavisha.notion.site/Navigating-the-Product-Maze-A-Guide-to-Being-an-Outstanding-Product-Manager-5b0eea81c36b425797c9da317c927b13",
+      "pageId": "5b0eea81-c36b-4257-97c9-da317c927b13",
+      "notionTitle": "Navigating the Product Maze: A Guide to Being an Outstanding Product Manager",
+      "createdAt": "2024-01-24T11:52:57.603Z",
+      "updatedAt": "2024-03-05T20:28:25.634Z",
+      "markdownPath": "content/notion-import/blogs/qikfox-feature-enhancement/index.md",
+      "blockCount": 14,
+      "blockTypes": {
+        "table": 1,
+        "table_row": 8,
+        "text": 5
+      },
+      "assetCount": 2,
+      "downloadedAssetCount": 2,
+      "failedAssetCount": 0,
+      "assets": [
+        {
+          "blockId": "5b0eea81-c36b-4257-97c9-da317c927b13",
+          "kind": "cover",
+          "caption": "Navigating the Product Maze: A Guide to Being an Outstanding Product Manager cover",
+          "source": "https://images.unsplash.com/photo-1484910292437-025e5d13ce87?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb",
+          "proposedLocalPath": "assets/00-cover.jpg",
+          "download": {
+            "status": "ok",
+            "bytes": 265721,
+            "contentType": "image/jpeg"
+          }
+        },
+        {
+          "blockId": "5b0eea81-c36b-4257-97c9-da317c927b13",
+          "kind": "file",
+          "caption": "https://sriramk.com/memos/Ben_Horowitz_Good_Product_Manager_Bad_Product_Manager.pdf",
+          "source": "https://sriramk.com/memos/Ben_Horowitz_Good_Product_Manager_Bad_Product_Manager.pdf",
+          "proposedLocalPath": "assets/02-5b0eea81-c36b-4257-97c9-da317c927b13.pdf",
+          "download": {
+            "status": "ok",
+            "bytes": 119339,
+            "contentType": "application/pdf"
+          }
+        }
+      ],
+      "externalLinks": [
+        "https://sriramk.com/memos/Ben_Horowitz_Good_Product_Manager_Bad_Product_Manager.pdf"
+      ],
+      "unsupportedBlockTypes": [],
+      "embeddedCollections": [],
+      "collectionWarnings": [],
+      "properties": [
+        {
+          "key": "gvFW",
+          "value": "https://sriramk.com/memos/Ben_Horowitz_Good_Product_Manager_Bad_Product_Manager.pdf"
+        }
+      ],
+      "fetchComplete": true
+    },
+    {
+      "status": "ok",
+      "section": "blogs",
+      "slug": "parentry-feature-enhancement",
+      "cardTitle": "Parentry.com feature enhancement | CoinedOne",
+      "sourceUrl": "https://satavisha.notion.site/Product-Management-Parentry-app-Challenge-CoinedOne-7189c474fa8e4e1798d8edd51db111e2",
+      "pageId": "7189c474-fa8e-4e17-98d8-edd51db111e2",
+      "notionTitle": "Product Management (Parentry.app) Challenge | CoinedOne ",
+      "createdAt": "2023-11-01T19:59:17.989Z",
+      "updatedAt": "2024-03-05T20:30:39.359Z",
+      "markdownPath": "content/notion-import/blogs/parentry-feature-enhancement/index.md",
+      "blockCount": 64,
+      "blockTypes": {
+        "bulleted_list": 17,
+        "collection_view": 1,
+        "external_object_instance": 1,
+        "header": 1,
+        "image": 2,
+        "numbered_list": 11,
+        "page": 1,
+        "sub_header": 3,
+        "sub_sub_header": 8,
+        "text": 19
+      },
+      "assetCount": 3,
+      "downloadedAssetCount": 3,
+      "failedAssetCount": 0,
+      "assets": [
+        {
+          "blockId": "7189c474-fa8e-4e17-98d8-edd51db111e2",
+          "kind": "cover",
+          "caption": "Product Management (Parentry.app) Challenge | CoinedOne  cover",
+          "source": "/images/page-cover/solid_yellow.png",
+          "proposedLocalPath": "assets/00-cover.png",
+          "download": {
+            "status": "ok",
+            "bytes": 86,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "45946619-26b8-4670-a60c-ad028055650e",
+          "kind": "image",
+          "caption": "Image 2",
+          "source": "https://lh4.googleusercontent.com/AaItSUtqoPGA32Z7Ccv91XahnJV1cp6tFv26mspHoVdVRxN6NEWUd8U7v7VaO1XEagnv166NDBiLQI6PvW27ADxFv9KkD3hmre0hjwxNtvye8L2qzUNonaXN3pWkedWtjmoyhFXG",
+          "proposedLocalPath": "assets/02-45946619-26b8-4670-a60c-ad028055650e.jpg",
+          "download": {
+            "status": "ok",
+            "bytes": 192370,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "79267bc6-1ceb-4b6a-abc4-9f63701f78ae",
+          "kind": "image",
+          "caption": "Image 3",
+          "source": "https://lh5.googleusercontent.com/e1OLJWKpZ-FTlCh1grgc7AocIdV8ElvNdFQkytOcdIr_O02qLW4fPTlhxut1YWO2s_HYAO5P8Z1_AQ79Nc7HCXzjoTDCGdaNjkV5i7It0108GqrYrKVmXoFh57MxoEs9DtAYpI-m",
+          "proposedLocalPath": "assets/03-79267bc6-1ceb-4b6a-abc4-9f63701f78ae.jpg",
+          "download": {
+            "status": "ok",
+            "bytes": 92405,
+            "contentType": "image/png"
+          }
+        }
+      ],
+      "externalLinks": [
+        "http://rchiips.org/nfhs/data/india1/iachap4.pdf",
+        "https://daily.jstor.org/whats-bad-instant-gratification/",
+        "https://online.regiscollege.edu/blog/effects-of-technology-on-children/",
+        "https://tradingeconomics.com/india/urban-population-percent-of-total-wb-data.html#:~:text=Urban%20population%20(%25%20of%20total%20population)%20in%20India%20was%20reported,compiled%20from%20officially%20recognized%20sources.",
+        "https://us.norton.com/internetsecurity-how-to-digital-generations.html",
+        "https://www.childrenandscreens.com/findings/obesity/",
+        "https://www.childrenandscreens.com/findings/obesity/#:~:text=The%20evidence%20to%20date%20suggests,beverages%20that%20alters%20children's%20preferences%2C",
+        "https://www.figma.com/file/xerZ47dtiAMYoxWNaETyaP/GetFit-by-Parentry?node-id=0%3A1",
+        "https://www.figma.com/file/xerZ47dtiAMYoxWNaETyaP/GetFit-by-Parentry?type=design&node-id=0-1&mode=design",
+        "https://www.kqed.org/mindshift/28561/how-does-multitasking-change-the-way-kids-learn",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4188020/#:~:text=Childlessness%20in%20India%20is%20estimated,for%2045%2D49%20age%20group.",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5769928/",
+        "https://www.pewresearch.org/internet/2020/07/28/parenting-children-in-the-age-of-screens/#fn-26219-1"
+      ],
+      "unsupportedBlockTypes": [],
+      "embeddedCollections": [
+        {
+          "collectionId": "caa41584-53de-45a6-abfc-184203426d39",
+          "collectionViewId": "496c391f-b85a-4f75-851f-8e8088746967",
+          "name": "Features’ table",
+          "rowCount": 9
+        }
+      ],
+      "collectionWarnings": [],
+      "properties": [
+        {
+          "key": "gvFW",
+          "value": "‣ "
+        }
+      ],
+      "fetchComplete": true
+    },
+    {
+      "status": "ok",
+      "section": "blogs",
+      "slug": "anti-sniping-anti-rug-pull-tool",
+      "cardTitle": "Anti-sniping anti-rug pull tool for crypto launchpads",
+      "sourceUrl": "https://satavisha.notion.site/Anti-Sniper-and-rug-pull-tool-2400d6f642c280c2b45ffaf08dc74d45?source=copy_link",
+      "pageId": "2400d6f6-42c2-80c2-b45f-faf08dc74d45",
+      "notionTitle": "Anti-Sniper and rug pull tool",
+      "createdAt": "2025-07-30T19:22:30.729Z",
+      "updatedAt": "2025-09-29T21:04:44.712Z",
+      "markdownPath": "content/notion-import/blogs/anti-sniping-anti-rug-pull-tool/index.md",
+      "blockCount": 31,
+      "blockTypes": {
+        "bulleted_list": 8,
+        "column": 2,
+        "column_list": 1,
+        "image": 2,
+        "numbered_list": 7,
+        "sub_header": 2,
+        "sub_sub_header": 2,
+        "text": 7
+      },
+      "assetCount": 3,
+      "downloadedAssetCount": 3,
+      "failedAssetCount": 0,
+      "assets": [
+        {
+          "blockId": "2400d6f6-42c2-80c2-b45f-faf08dc74d45",
+          "kind": "cover",
+          "caption": "Anti-Sniper and rug pull tool cover",
+          "source": "attachment:defa2303-b56a-4d79-904a-57a5c52cf82d:sniper-TSK2Pj.jpeg",
+          "proposedLocalPath": "assets/00-cover.jpeg",
+          "download": {
+            "status": "ok",
+            "bytes": 128230,
+            "contentType": "image/jpeg"
+          }
+        },
+        {
+          "blockId": "2400d6f6-42c2-802a-b3d4-f3eeb0bc5f03",
+          "kind": "image",
+          "caption": "image.png",
+          "source": "attachment:e7a87928-80e6-40ca-accc-4ecb9d8cc5f2:image.png",
+          "proposedLocalPath": "assets/02-2400d6f6-42c2-802a-b3d4-f3eeb0bc5f03.png",
+          "download": {
+            "status": "ok",
+            "bytes": 38547,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "2400d6f6-42c2-80f4-960c-fe674f513c67",
+          "kind": "image",
+          "caption": "image.png",
+          "source": "attachment:4281235f-fabf-49f8-87cf-c79c21cfed27:image.png",
+          "proposedLocalPath": "assets/03-2400d6f6-42c2-80f4-960c-fe674f513c67.png",
+          "download": {
+            "status": "ok",
+            "bytes": 22187,
+            "contentType": "image/png"
+          }
+        }
+      ],
+      "externalLinks": [
+        "http://passport.xyz",
+        "https://coinlaw.io/rug-pulls-amp-ponzi-schemes-in-crypto-statistics/#:~:text=As%20of%20Q1%202025%2C%20rug%20pulls%20make%20up%2068%25%20of%20all%20crypto%2Drelated%20scams%2C%20with%20Ponzi%20schemes%20contributing%2022%25",
+        "https://cointelegraph.com/news/bubblemaps-rugproof-launchpad-alleged-rug-pull",
+        "https://medium.com/%40mbarichard18/sniped-on-arrival-unmasking-solanas-token-sniper-bots-and-securing-the-future-of-fair-launches-03fd6cc8b784"
+      ],
+      "unsupportedBlockTypes": [],
+      "embeddedCollections": [],
+      "collectionWarnings": [],
+      "properties": [
+        {
+          "key": "vz|Y",
+          "value": "Ideation"
+        }
+      ],
+      "fetchComplete": true
+    },
+    {
+      "status": "ok",
+      "section": "blogs",
+      "slug": "favorite-product-breakdown",
+      "cardTitle": "Favorite product breakdown",
+      "sourceUrl": "https://satavisha.notion.site/Favourite-Product-breakdown-b37c68d85aaa4ca880be504778edb400?source=copy_link",
+      "pageId": "b37c68d8-5aaa-4ca8-80be-504778edb400",
+      "notionTitle": "Favourite Product breakdown",
+      "createdAt": "2024-04-09T11:28:47.319Z",
+      "updatedAt": "2025-07-09T07:53:03.184Z",
+      "markdownPath": "content/notion-import/blogs/favorite-product-breakdown/index.md",
+      "blockCount": 16,
+      "blockTypes": {
+        "image": 1,
+        "numbered_list": 10,
+        "text": 5
+      },
+      "assetCount": 1,
+      "downloadedAssetCount": 1,
+      "failedAssetCount": 0,
+      "assets": [
+        {
+          "blockId": "f28aab96-2888-4710-8315-5d8bd5e20373",
+          "kind": "image",
+          "caption": "Untitled",
+          "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/5243fb09-c1a1-4911-af3a-7fc3fb8ad5ba/Untitled.png",
+          "proposedLocalPath": "assets/01-f28aab96-2888-4710-8315-5d8bd5e20373.png",
+          "download": {
+            "status": "ok",
+            "bytes": 224099,
+            "contentType": "image/png"
+          }
+        }
+      ],
+      "externalLinks": [],
+      "unsupportedBlockTypes": [],
+      "embeddedCollections": [],
+      "collectionWarnings": [],
+      "properties": [
+        {
+          "key": "vz|Y",
+          "value": "Ideation"
+        }
+      ],
+      "fetchComplete": true
+    },
+    {
+      "status": "ok",
+      "section": "blogs",
+      "slug": "porters-five-for-crypto",
+      "cardTitle": "Porter's 5 for Crypto industry",
+      "sourceUrl": "https://satavisha.notion.site/Porter-s-5-for-Crypto-industry-84a59bcba0324b3f8ae135733a5b9f52",
+      "pageId": "84a59bcb-a032-4b3f-8ae1-35733a5b9f52",
+      "notionTitle": "Porter’s 5 for Crypto industry",
+      "createdAt": "2024-03-10T13:27:08.079Z",
+      "updatedAt": "2024-03-10T13:48:00.084Z",
+      "markdownPath": "content/notion-import/blogs/porters-five-for-crypto/index.md",
+      "blockCount": 31,
+      "blockTypes": {
+        "bulleted_list": 5,
+        "column": 2,
+        "column_list": 1,
+        "image": 1,
+        "numbered_list": 5,
+        "sub_sub_header": 2,
+        "table": 1,
+        "table_row": 11,
+        "text": 3
+      },
+      "assetCount": 2,
+      "downloadedAssetCount": 2,
+      "failedAssetCount": 0,
+      "assets": [
+        {
+          "blockId": "84a59bcb-a032-4b3f-8ae1-35733a5b9f52",
+          "kind": "cover",
+          "caption": "Porter’s 5 for Crypto industry cover",
+          "source": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb",
+          "proposedLocalPath": "assets/00-cover.jpg",
+          "download": {
+            "status": "ok",
+            "bytes": 242930,
+            "contentType": "image/jpeg"
+          }
+        },
+        {
+          "blockId": "3a2087bb-1448-4ec6-acd4-3e518553bf40",
+          "kind": "image",
+          "caption": "Untitled",
+          "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/2345f4e5-1b83-4e1e-a35e-3d79e09a9ead/Untitled.png",
+          "proposedLocalPath": "assets/02-3a2087bb-1448-4ec6-acd4-3e518553bf40.png",
+          "download": {
+            "status": "ok",
+            "bytes": 5631,
+            "contentType": "image/png"
+          }
+        }
+      ],
+      "externalLinks": [
+        "https://www.coinbase.com/"
+      ],
+      "unsupportedBlockTypes": [],
+      "embeddedCollections": [],
+      "collectionWarnings": [],
+      "properties": [
+        {
+          "key": "C\\b[",
+          "value": "Satavisha Mitra"
+        },
+        {
+          "key": "gvFW",
+          "value": "Pick an upcoming industry and analyse its dynamics using Porter’s 5 forces. Also pick any company from that industry and construct its value chain. "
+        }
+      ],
+      "fetchComplete": true
+    },
+    {
+      "status": "ok",
+      "section": "dance",
+      "slug": "olga-meos-tribal-kazakhstan-2025",
+      "cardTitle": "Performed with Olga Meos at Tribal Kazakhstan 2025",
+      "sourceUrl": "https://satavisha.notion.site/Performed-with-the-legendary-Olga-Meos-at-Tribal-Kazaksthan-2025-20c0d6f642c280369d8cc128e4ec71d9",
+      "pageId": "20c0d6f6-42c2-8036-9d8c-c128e4ec71d9",
+      "notionTitle": "Performed with the legendary Olga Meos, at Tribal Kazaksthan 2025",
+      "createdAt": "2025-06-08T16:36:40.361Z",
+      "updatedAt": "2025-07-02T11:10:52.108Z",
+      "markdownPath": "content/notion-import/dance/olga-meos-tribal-kazakhstan-2025/index.md",
+      "blockCount": 17,
+      "blockTypes": {
+        "bulleted_list": 5,
+        "column": 2,
+        "column_list": 1,
+        "image": 2,
+        "text": 7
+      },
+      "assetCount": 2,
+      "downloadedAssetCount": 2,
+      "failedAssetCount": 0,
+      "assets": [
+        {
+          "blockId": "20c0d6f6-42c2-8048-acd4-cad65f17c74a",
+          "kind": "image",
+          "caption": "olga.jpg",
+          "source": "attachment:2e8b4bcc-d81f-4aee-9fea-19efb49bbd12:olga.jpg",
+          "proposedLocalPath": "assets/01-20c0d6f6-42c2-8048-acd4-cad65f17c74a.jpg",
+          "download": {
+            "status": "ok",
+            "bytes": 122446,
+            "contentType": "image/jpeg"
+          }
+        },
+        {
+          "blockId": "20c0d6f6-42c2-8091-aeba-f80d4e4dc7ba",
+          "kind": "image",
+          "caption": "me 2.png",
+          "source": "attachment:1339f8be-c3b3-4d61-a811-ff0f73f2f0fc:me_2.png",
+          "proposedLocalPath": "assets/02-20c0d6f6-42c2-8091-aeba-f80d4e4dc7ba.png",
+          "download": {
+            "status": "ok",
+            "bytes": 1694719,
+            "contentType": "image/png"
+          }
+        }
+      ],
+      "externalLinks": [],
+      "unsupportedBlockTypes": [],
+      "embeddedCollections": [],
+      "collectionWarnings": [],
+      "properties": [
+        {
+          "key": "Ivfi",
+          "value": "Dance"
+        },
+        {
+          "key": "{`Uh",
+          "value": "2025-06-07"
+        },
+        {
+          "key": "dependency_7d8ed596-0607-4c47-ab8a-74aaab6ca80f",
+          "value": "86"
+        },
+        {
+          "key": "dependency_aa62d0b6-0e64-448c-9828-2b66d2644ff9",
+          "value": "⭐⭐⭐⭐ (4/5)"
+        },
+        {
+          "key": "dependency_ae8cbf08-e687-4e10-961b-ae3cd774ca56",
+          "value": "The Subtle Art of Not Giving a F*ck by Mark Manson"
+        },
+        {
+          "key": "dependency_d29e0d65-e67d-4359-a4fe-73d18c30da54",
+          "value": "Important perspective shift on what constitutes happiness."
+        },
+        {
+          "key": "dependency_d8edf8c3-7d9f-4a2c-9278-967ad6f14c88",
+          "value": "Insight,Quote"
+        }
+      ],
+      "fetchComplete": true
+    },
+    {
+      "status": "ok",
+      "section": "dance",
+      "slug": "ode-to-resilience-nrityakosh",
+      "cardTitle": "An ode to Resilience",
+      "sourceUrl": "https://satavisha.notion.site/Performed-at-NrityaKosh-Bengaluru-2070d6f642c2808eaba1ce3b91a3fcd1",
+      "pageId": "2070d6f6-42c2-808e-aba1-ce3b91a3fcd1",
+      "notionTitle": "Performed at NrityaKosh, Bengaluru",
+      "createdAt": "2025-06-03T20:03:20.514Z",
+      "updatedAt": "2025-06-12T05:58:17.936Z",
+      "markdownPath": "content/notion-import/dance/ode-to-resilience-nrityakosh/index.md",
+      "blockCount": 6,
+      "blockTypes": {
+        "image": 1,
+        "text": 5
+      },
+      "assetCount": 1,
+      "downloadedAssetCount": 1,
+      "failedAssetCount": 0,
+      "assets": [
+        {
+          "blockId": "2070d6f6-42c2-80c9-80bd-f8e267db337d",
+          "kind": "image",
+          "caption": "GOT.jpg",
+          "source": "attachment:462348af-bf63-4356-8e43-3355c9c0b324:GOT.jpg",
+          "proposedLocalPath": "assets/01-2070d6f6-42c2-80c9-80bd-f8e267db337d.jpg",
+          "download": {
+            "status": "ok",
+            "bytes": 77166,
+            "contentType": "image/jpeg"
+          }
+        }
+      ],
+      "externalLinks": [],
+      "unsupportedBlockTypes": [],
+      "embeddedCollections": [],
+      "collectionWarnings": [],
+      "properties": [
+        {
+          "key": "Ivfi",
+          "value": "Dance"
+        }
+      ],
+      "fetchComplete": true
+    },
+    {
+      "status": "ok",
+      "section": "dance",
+      "slug": "tribal-revival-2025",
+      "cardTitle": "Tribal Revival 2025",
+      "sourceUrl": "https://satavisha.notion.site/Performed-and-collaborated-at-Tribal-Revival-Bengaluru-2025-20c0d6f642c280b180c1c915da2b0f60",
+      "pageId": "20c0d6f6-42c2-80b1-80c1-c915da2b0f60",
+      "notionTitle": "Performed and collaborated at Tribal Revival, Bengaluru 2025 ",
+      "createdAt": "2025-06-08T16:36:40.387Z",
+      "updatedAt": "2025-06-20T20:38:48.796Z",
+      "markdownPath": "content/notion-import/dance/tribal-revival-2025/index.md",
+      "blockCount": 4,
+      "blockTypes": {
+        "image": 1,
+        "text": 3
+      },
+      "assetCount": 1,
+      "downloadedAssetCount": 1,
+      "failedAssetCount": 0,
+      "assets": [
+        {
+          "blockId": "20c0d6f6-42c2-8051-ba7b-d12665cfced0",
+          "kind": "image",
+          "caption": "certi.jpeg",
+          "source": "attachment:5c847001-8b6f-43c3-af8b-2476744ab62c:certi.jpeg",
+          "proposedLocalPath": "assets/01-20c0d6f6-42c2-8051-ba7b-d12665cfced0.jpeg",
+          "download": {
+            "status": "ok",
+            "bytes": 124814,
+            "contentType": "image/jpeg"
+          }
+        }
+      ],
+      "externalLinks": [],
+      "unsupportedBlockTypes": [],
+      "embeddedCollections": [],
+      "collectionWarnings": [],
+      "properties": [
+        {
+          "key": "Ivfi",
+          "value": "Dance"
+        },
+        {
+          "key": "{`Uh",
+          "value": "2025-06-04"
+        },
+        {
+          "key": "dependency_7d8ed596-0607-4c47-ab8a-74aaab6ca80f",
+          "value": "112"
+        },
+        {
+          "key": "dependency_aa62d0b6-0e64-448c-9828-2b66d2644ff9",
+          "value": "⭐⭐⭐⭐ (4/5)"
+        },
+        {
+          "key": "dependency_ae8cbf08-e687-4e10-961b-ae3cd774ca56",
+          "value": "Atomic Habits by James Clear"
+        },
+        {
+          "key": "dependency_d29e0d65-e67d-4359-a4fe-73d18c30da54",
+          "value": "Emphasizes the importance of consistent practice rather than just having goals."
+        },
+        {
+          "key": "dependency_d8edf8c3-7d9f-4a2c-9278-967ad6f14c88",
+          "value": "Quote,Action Item"
+        }
+      ],
+      "fetchComplete": true
+    },
+    {
+      "status": "ok",
+      "section": "dance",
+      "slug": "tfbd-map-community-building",
+      "cardTitle": "Community building in TFBD via TFBD Map",
+      "sourceUrl": "https://satavisha.notion.site/TFBD-Map-23d0d6f642c2803fb8aaed5d4abb0a01",
+      "pageId": "23d0d6f6-42c2-803f-b8aa-ed5d4abb0a01",
+      "notionTitle": "TFBD Map",
+      "createdAt": "2025-07-27T15:22:47.576Z",
+      "updatedAt": "2025-08-22T09:20:00.198Z",
+      "markdownPath": "content/notion-import/dance/tfbd-map-community-building/index.md",
+      "blockCount": 31,
+      "blockTypes": {
+        "bulleted_list": 11,
+        "callout": 1,
+        "divider": 2,
+        "image": 1,
+        "numbered_list": 3,
+        "sub_sub_header": 2,
+        "text": 11
+      },
+      "assetCount": 2,
+      "downloadedAssetCount": 2,
+      "failedAssetCount": 0,
+      "assets": [
+        {
+          "blockId": "23d0d6f6-42c2-803f-b8aa-ed5d4abb0a01",
+          "kind": "cover",
+          "caption": "TFBD Map cover",
+          "source": "attachment:189f0767-4fb4-4586-8192-2b685166f2f1:logo.png",
+          "proposedLocalPath": "assets/00-cover.png",
+          "download": {
+            "status": "ok",
+            "bytes": 1609021,
+            "contentType": "image/png"
+          }
+        },
+        {
+          "blockId": "23d0d6f6-42c2-808e-9b1c-f24baec809ee",
+          "kind": "image",
+          "caption": "image.png",
+          "source": "attachment:d0709b1d-8ede-40c8-bff1-c38f8200caa5:image.png",
+          "proposedLocalPath": "assets/02-23d0d6f6-42c2-808e-9b1c-f24baec809ee.png",
+          "download": {
+            "status": "ok",
+            "bytes": 3334740,
+            "contentType": "image/png"
+          }
+        }
+      ],
+      "externalLinks": [
+        "https://satavisha.github.io/TFBDMap2/"
+      ],
+      "unsupportedBlockTypes": [],
+      "embeddedCollections": [],
+      "collectionWarnings": [],
+      "properties": [
+        {
+          "key": "vz|Y",
+          "value": "Ideation"
+        }
+      ],
+      "fetchComplete": true
+    },
+    {
+      "status": "ok",
+      "section": "dance",
+      "slug": "movement-meditation",
+      "cardTitle": "Movement Meditation",
+      "sourceUrl": "https://satavisha.notion.site/Dance-Meditation-20c0d6f642c28009869fff538aff9080?pvs=74",
+      "pageId": "20c0d6f6-42c2-8009-869f-ff538aff9080",
+      "notionTitle": "Dance Meditation",
+      "createdAt": "2025-06-08T22:53:25.324Z",
+      "updatedAt": "2025-06-08T23:35:00.104Z",
+      "markdownPath": "content/notion-import/dance/movement-meditation/index.md",
+      "blockCount": 7,
+      "blockTypes": {
+        "sub_sub_header": 2,
+        "text": 5
+      },
+      "assetCount": 1,
+      "downloadedAssetCount": 1,
+      "failedAssetCount": 0,
+      "assets": [
+        {
+          "blockId": "20c0d6f6-42c2-8009-869f-ff538aff9080",
+          "kind": "cover",
+          "caption": "Dance Meditation cover",
+          "source": "https://themindsjournal.com/wp-content/uploads/2024/09/Sufi-Whirling-Meditation-Cosmic-Dance-Journey-1.jpg",
+          "proposedLocalPath": "assets/00-cover.jpg",
+          "download": {
+            "status": "ok",
+            "bytes": 64071,
+            "contentType": "image/jpeg"
+          }
+        }
+      ],
+      "externalLinks": [],
+      "unsupportedBlockTypes": [],
+      "embeddedCollections": [],
+      "collectionWarnings": [],
+      "properties": [
+        {
+          "key": "vz|Y",
+          "value": "Ideation"
+        }
+      ],
+      "fetchComplete": true
+    }
+  ]
+}

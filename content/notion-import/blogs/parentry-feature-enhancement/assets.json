@@ -1,0 +1,38 @@
+[
+  {
+    "blockId": "7189c474-fa8e-4e17-98d8-edd51db111e2",
+    "kind": "cover",
+    "caption": "Product Management (Parentry.app) Challenge | CoinedOne  cover",
+    "source": "/images/page-cover/solid_yellow.png",
+    "proposedLocalPath": "assets/00-cover.png",
+    "download": {
+      "status": "ok",
+      "bytes": 86,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "45946619-26b8-4670-a60c-ad028055650e",
+    "kind": "image",
+    "caption": "Image 2",
+    "source": "https://lh4.googleusercontent.com/AaItSUtqoPGA32Z7Ccv91XahnJV1cp6tFv26mspHoVdVRxN6NEWUd8U7v7VaO1XEagnv166NDBiLQI6PvW27ADxFv9KkD3hmre0hjwxNtvye8L2qzUNonaXN3pWkedWtjmoyhFXG",
+    "proposedLocalPath": "assets/02-45946619-26b8-4670-a60c-ad028055650e.jpg",
+    "download": {
+      "status": "ok",
+      "bytes": 192370,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "79267bc6-1ceb-4b6a-abc4-9f63701f78ae",
+    "kind": "image",
+    "caption": "Image 3",
+    "source": "https://lh5.googleusercontent.com/e1OLJWKpZ-FTlCh1grgc7AocIdV8ElvNdFQkytOcdIr_O02qLW4fPTlhxut1YWO2s_HYAO5P8Z1_AQ79Nc7HCXzjoTDCGdaNjkV5i7It0108GqrYrKVmXoFh57MxoEs9DtAYpI-m",
+    "proposedLocalPath": "assets/03-79267bc6-1ceb-4b6a-abc4-9f63701f78ae.jpg",
+    "download": {
+      "status": "ok",
+      "bytes": 92405,
+      "contentType": "image/png"
+    }
+  }
+]

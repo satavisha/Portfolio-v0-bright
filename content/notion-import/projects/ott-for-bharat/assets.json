@@ -1,0 +1,170 @@
+[
+  {
+    "blockId": "20c0d6f6-42c2-80db-872b-fa0a675ff0f8",
+    "kind": "cover",
+    "caption": "Lok Learn - an OTT for Bharat cover",
+    "source": "attachment:baf198dc-30fb-4cc8-b836-04923e9300ed:lok_learn_logo_2.png",
+    "proposedLocalPath": "assets/00-cover.png",
+    "download": {
+      "status": "ok",
+      "bytes": 436339,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "20c0d6f6-42c2-80db-872b-fa0a675ff0f8",
+    "kind": "file",
+    "caption": "Lok Learn - OTT platform for Bharat _ Strategy and PRD by Satavisha Mitra.pdf",
+    "source": "attachment:235225d2-9874-4796-9652-07e4d8947bcf:Lok_Learn_-_OTT_platform_for_Bharat___Strategy_and_PRD_by_Satavisha_Mitra.pdf",
+    "proposedLocalPath": "assets/02-20c0d6f6-42c2-80db-872b-fa0a675ff0f8.pdf",
+    "download": {
+      "status": "ok",
+      "bytes": 4299554,
+      "contentType": "application/pdf"
+    }
+  },
+  {
+    "blockId": "20c0d6f6-42c2-8006-a659-f57c7e901d71",
+    "kind": "image",
+    "caption": "image.png",
+    "source": "attachment:35f2c12c-0233-4db5-ba4a-140016bf9ff4:image.png",
+    "proposedLocalPath": "assets/03-20c0d6f6-42c2-8006-a659-f57c7e901d71.png",
+    "download": {
+      "status": "ok",
+      "bytes": 47235,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "20c0d6f6-42c2-801b-8607-fc5c6bb92f03",
+    "kind": "image",
+    "caption": "image.png",
+    "source": "attachment:59589ae1-fc49-4717-9e41-2255fca76121:image.png",
+    "proposedLocalPath": "assets/04-20c0d6f6-42c2-801b-8607-fc5c6bb92f03.png",
+    "download": {
+      "status": "ok",
+      "bytes": 107650,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "20c0d6f6-42c2-80b9-a584-daa93cc4a82f",
+    "kind": "image",
+    "caption": "lok learn logo.png",
+    "source": "attachment:24b16404-4ea2-4893-a3a9-1a83072726b5:lok_learn_logo.png",
+    "proposedLocalPath": "assets/05-20c0d6f6-42c2-80b9-a584-daa93cc4a82f.png",
+    "download": {
+      "status": "ok",
+      "bytes": 339810,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "20c0d6f6-42c2-801a-ab67-d05a41bd8199",
+    "kind": "image",
+    "caption": "image.png",
+    "source": "attachment:af720e93-0abd-4959-a9a2-1a0b2ab1162b:image.png",
+    "proposedLocalPath": "assets/06-20c0d6f6-42c2-801a-ab67-d05a41bd8199.png",
+    "download": {
+      "status": "ok",
+      "bytes": 130886,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "2270d6f6-42c2-8024-bd35-fb4aae0dc030",
+    "kind": "image",
+    "caption": "image.png",
+    "source": "attachment:40155bac-e41d-4cfb-a8f1-1d736602ab0e:image.png",
+    "proposedLocalPath": "assets/07-2270d6f6-42c2-8024-bd35-fb4aae0dc030.png",
+    "download": {
+      "status": "ok",
+      "bytes": 86227,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "2270d6f6-42c2-806d-a6d2-df9409b1b8ed",
+    "kind": "image",
+    "caption": "image.png",
+    "source": "attachment:cfa99f2c-f023-4cc7-a9e4-07c42b509944:image.png",
+    "proposedLocalPath": "assets/08-2270d6f6-42c2-806d-a6d2-df9409b1b8ed.png",
+    "download": {
+      "status": "ok",
+      "bytes": 102099,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "2270d6f6-42c2-800e-b29f-def0b0d7c6df",
+    "kind": "image",
+    "caption": "image.png",
+    "source": "attachment:d89d0c8c-ade4-49d0-afe9-da4b4a5cafa8:image.png",
+    "proposedLocalPath": "assets/09-2270d6f6-42c2-800e-b29f-def0b0d7c6df.png",
+    "download": {
+      "status": "ok",
+      "bytes": 37418,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "2270d6f6-42c2-8032-b143-d9a7ba0693c5",
+    "kind": "image",
+    "caption": "image.png",
+    "source": "attachment:82e76b3c-055e-414d-8a9b-67786aca6d19:image.png",
+    "proposedLocalPath": "assets/10-2270d6f6-42c2-8032-b143-d9a7ba0693c5.png",
+    "download": {
+      "status": "ok",
+      "bytes": 314620,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "2270d6f6-42c2-8013-9aea-f1c1167965a0",
+    "kind": "image",
+    "caption": "image.png",
+    "source": "attachment:dfd11a79-0f94-49c3-887b-32ce3f683a0d:image.png",
+    "proposedLocalPath": "assets/11-2270d6f6-42c2-8013-9aea-f1c1167965a0.png",
+    "download": {
+      "status": "ok",
+      "bytes": 91668,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "2270d6f6-42c2-80b0-b106-f9ef23907c6b",
+    "kind": "image",
+    "caption": "image.png",
+    "source": "attachment:e5a242eb-a729-404c-af35-5631720f69bf:image.png",
+    "proposedLocalPath": "assets/12-2270d6f6-42c2-80b0-b106-f9ef23907c6b.png",
+    "download": {
+      "status": "ok",
+      "bytes": 76808,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "2270d6f6-42c2-80eb-9baf-ddf162cdbef2",
+    "kind": "image",
+    "caption": "image.png",
+    "source": "attachment:9e1e3db2-8d49-4aac-bd13-5120402adf86:image.png",
+    "proposedLocalPath": "assets/13-2270d6f6-42c2-80eb-9baf-ddf162cdbef2.png",
+    "download": {
+      "status": "ok",
+      "bytes": 77038,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "2270d6f6-42c2-8041-9d49-fa03471f9917",
+    "kind": "image",
+    "caption": "image.png",
+    "source": "attachment:ae6de2e4-2757-4878-8cd2-35aa0730c978:image.png",
+    "proposedLocalPath": "assets/14-2270d6f6-42c2-8041-9d49-fa03471f9917.png",
+    "download": {
+      "status": "ok",
+      "bytes": 89000,
+      "contentType": "image/png"
+    }
+  }
+]

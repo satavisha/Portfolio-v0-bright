@@ -1,0 +1,14 @@
+[
+  {
+    "blockId": "2070d6f6-42c2-80c9-80bd-f8e267db337d",
+    "kind": "image",
+    "caption": "GOT.jpg",
+    "source": "attachment:462348af-bf63-4356-8e43-3355c9c0b324:GOT.jpg",
+    "proposedLocalPath": "assets/01-2070d6f6-42c2-80c9-80bd-f8e267db337d.jpg",
+    "download": {
+      "status": "ok",
+      "bytes": 77166,
+      "contentType": "image/jpeg"
+    }
+  }
+]

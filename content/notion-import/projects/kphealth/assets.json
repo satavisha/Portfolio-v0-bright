@@ -1,0 +1,98 @@
+[
+  {
+    "blockId": "e93e6093-cc1c-478b-9060-7728e8c18943",
+    "kind": "cover",
+    "caption": "KPHealth - a Health app for Kaiser Permanente cover",
+    "source": "attachment:0129c1ee-f4a1-478d-9156-55b16c78e60f:b966c999-656a-47be-a326-dfa942290b0f.png",
+    "proposedLocalPath": "assets/00-cover.png",
+    "download": {
+      "status": "ok",
+      "bytes": 1415573,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "59a8d940-217c-4d51-b255-537324153613",
+    "kind": "file",
+    "caption": "KPhealth_Product Pitch.pdf",
+    "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/7c1c10ec-479e-4c69-9a55-481ea6f5af8c/KPhealth_Product_Pitch.pdf",
+    "proposedLocalPath": "assets/02-59a8d940-217c-4d51-b255-537324153613.pdf",
+    "download": {
+      "status": "ok",
+      "bytes": 251100,
+      "contentType": "application/pdf"
+    }
+  },
+  {
+    "blockId": "5a7b8634-0117-43fd-a0a7-8dc4805916b1",
+    "kind": "file",
+    "caption": "KPHealth_ Developing the Product.pdf",
+    "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/e133b7df-2d55-49a2-8a04-050705b6a41d/KPHealth__Developing_the_Product.pdf",
+    "proposedLocalPath": "assets/03-5a7b8634-0117-43fd-a0a7-8dc4805916b1.pdf",
+    "download": {
+      "status": "ok",
+      "bytes": 590423,
+      "contentType": "application/pdf"
+    }
+  },
+  {
+    "blockId": "0359eb46-cbe6-4b87-b245-1c0b8f9473f5",
+    "kind": "file",
+    "caption": "KPhealth_satavisha.pdf",
+    "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/13682e10-1880-4b91-b7f4-f58631cf6c1a/KPhealth_satavisha.pdf",
+    "proposedLocalPath": "assets/04-0359eb46-cbe6-4b87-b245-1c0b8f9473f5.pdf",
+    "download": {
+      "status": "ok",
+      "bytes": 251100,
+      "contentType": "application/pdf"
+    }
+  },
+  {
+    "blockId": "b9432b40-2deb-4059-96fc-8c007c4e87e3",
+    "kind": "image",
+    "caption": "K P screenshot.png",
+    "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/46492539-7a31-4aa0-9a8b-36df380d8b83/K_P_screenshot.png",
+    "proposedLocalPath": "assets/05-b9432b40-2deb-4059-96fc-8c007c4e87e3.png",
+    "download": {
+      "status": "ok",
+      "bytes": 85532,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "3cf8cecb-e5ad-4f7c-8143-60a8d40bde3e",
+    "kind": "image",
+    "caption": "Average expenditure per capita of US: $11K [7]",
+    "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/1d5bacd5-027c-4963-ad1d-644899e7fe20/av.png",
+    "proposedLocalPath": "assets/06-3cf8cecb-e5ad-4f7c-8143-60a8d40bde3e.png",
+    "download": {
+      "status": "ok",
+      "bytes": 82276,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "8360559f-4280-4fd5-80ff-b96e24c2c004",
+    "kind": "image",
+    "caption": "table.png",
+    "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/692e4b1e-c547-49b1-9f9d-70833f8e0d99/table.png",
+    "proposedLocalPath": "assets/07-8360559f-4280-4fd5-80ff-b96e24c2c004.png",
+    "download": {
+      "status": "ok",
+      "bytes": 9914,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "aa8ce2e6-64da-4f39-a936-99986f4f7329",
+    "kind": "image",
+    "caption": "pngtree-business-man-looking-with-binoculars-on-the-top-of-mountain-png-image_6133720.png",
+    "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/03488798-9894-44b5-9c0b-02649b747ef6/pngtree-business-man-looking-with-binoculars-on-the-top-of-mountain-png-image_6133720.png",
+    "proposedLocalPath": "assets/08-aa8ce2e6-64da-4f39-a936-99986f4f7329.png",
+    "download": {
+      "status": "ok",
+      "bytes": 8356,
+      "contentType": "image/png"
+    }
+  }
+]

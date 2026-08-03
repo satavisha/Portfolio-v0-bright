@@ -1,0 +1,26 @@
+[
+  {
+    "blockId": "23d0d6f6-42c2-803f-b8aa-ed5d4abb0a01",
+    "kind": "cover",
+    "caption": "TFBD Map cover",
+    "source": "attachment:189f0767-4fb4-4586-8192-2b685166f2f1:logo.png",
+    "proposedLocalPath": "assets/00-cover.png",
+    "download": {
+      "status": "ok",
+      "bytes": 1609021,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "23d0d6f6-42c2-808e-9b1c-f24baec809ee",
+    "kind": "image",
+    "caption": "image.png",
+    "source": "attachment:d0709b1d-8ede-40c8-bff1-c38f8200caa5:image.png",
+    "proposedLocalPath": "assets/02-23d0d6f6-42c2-808e-9b1c-f24baec809ee.png",
+    "download": {
+      "status": "ok",
+      "bytes": 3334740,
+      "contentType": "image/png"
+    }
+  }
+]

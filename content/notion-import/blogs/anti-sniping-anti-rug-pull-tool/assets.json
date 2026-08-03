@@ -1,0 +1,38 @@
+[
+  {
+    "blockId": "2400d6f6-42c2-80c2-b45f-faf08dc74d45",
+    "kind": "cover",
+    "caption": "Anti-Sniper and rug pull tool cover",
+    "source": "attachment:defa2303-b56a-4d79-904a-57a5c52cf82d:sniper-TSK2Pj.jpeg",
+    "proposedLocalPath": "assets/00-cover.jpeg",
+    "download": {
+      "status": "ok",
+      "bytes": 128230,
+      "contentType": "image/jpeg"
+    }
+  },
+  {
+    "blockId": "2400d6f6-42c2-802a-b3d4-f3eeb0bc5f03",
+    "kind": "image",
+    "caption": "image.png",
+    "source": "attachment:e7a87928-80e6-40ca-accc-4ecb9d8cc5f2:image.png",
+    "proposedLocalPath": "assets/02-2400d6f6-42c2-802a-b3d4-f3eeb0bc5f03.png",
+    "download": {
+      "status": "ok",
+      "bytes": 38547,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "blockId": "2400d6f6-42c2-80f4-960c-fe674f513c67",
+    "kind": "image",
+    "caption": "image.png",
+    "source": "attachment:4281235f-fabf-49f8-87cf-c79c21cfed27:image.png",
+    "proposedLocalPath": "assets/03-2400d6f6-42c2-80f4-960c-fe674f513c67.png",
+    "download": {
+      "status": "ok",
+      "bytes": 22187,
+      "contentType": "image/png"
+    }
+  }
+]

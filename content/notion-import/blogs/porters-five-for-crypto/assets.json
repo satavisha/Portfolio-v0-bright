@@ -1,0 +1,26 @@
+[
+  {
+    "blockId": "84a59bcb-a032-4b3f-8ae1-35733a5b9f52",
+    "kind": "cover",
+    "caption": "Porter’s 5 for Crypto industry cover",
+    "source": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb",
+    "proposedLocalPath": "assets/00-cover.jpg",
+    "download": {
+      "status": "ok",
+      "bytes": 242930,
+      "contentType": "image/jpeg"
+    }
+  },
+  {
+    "blockId": "3a2087bb-1448-4ec6-acd4-3e518553bf40",
+    "kind": "image",
+    "caption": "Untitled",
+    "source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/0e6cc760-0940-49ad-848e-a29f97c99963/2345f4e5-1b83-4e1e-a35e-3d79e09a9ead/Untitled.png",
+    "proposedLocalPath": "assets/02-3a2087bb-1448-4ec6-acd4-3e518553bf40.png",
+    "download": {
+      "status": "ok",
+      "bytes": 5631,
+      "contentType": "image/png"
+    }
+  }
+]
