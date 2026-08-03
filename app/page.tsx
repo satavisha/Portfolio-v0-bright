@@ -338,9 +338,9 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="flex space-x-6 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4">  /*changed this line*/
             {projects.map((project, index) => (
-              <a key={index} href={project.link} target="_blank" rel="noopener noreferrer" className="block">
+              <a key={index} href={project.link} target="_blank" rel="noopener noreferrer" className="min-w-[300px] md:min-w-[400px] snap-center">
                 <Card className="group hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2 border-0 shadow-lg cursor-pointer">
                   <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 relative overflow-hidden">
                     {project.image ? (
