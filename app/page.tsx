@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight, ArrowUpRight, Github, Linkedin } from "lucide-react"
+import { SiteMascot } from "@/components/site-mascot"
 import { SITE_DESCRIPTION, SITE_URL, SOCIAL_LINKS } from "@/lib/site"
 
 export const metadata: Metadata = {
@@ -28,6 +29,7 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personData).replace(/</g, "\\u003c") }} />
       <section className="home-hero" aria-labelledby="home-title">
         <div className="home-hero__copy">
+          <SiteMascot />
           <p className="kicker"><span>Portfolio</span> Product · Strategy · Practice</p>
           <h1 id="home-title">Hi, I’m <em>Satavisha.</em></h1>
           <p className="home-hero__intro">

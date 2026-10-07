@@ -187,6 +187,7 @@ img { max-width: 100%; }
   align-items: center;
 }
 .home-hero__copy { max-width: 830px; }
+.home-hero__mascot { margin-bottom: 12px; }
 .home-hero > *,
 .index-hero > *,
 .about-hero > *,
