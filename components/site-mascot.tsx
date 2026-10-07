@@ -8,7 +8,7 @@ export function SiteMascot() {
       className="home-hero__mascot"
       directions="/mascots/satavisha-directions.webp"
       reactions="/mascots/satavisha-reactions.webp"
-      size={120}
+      size={190}
       label="Chibi Satavisha mascot"
     />
   )

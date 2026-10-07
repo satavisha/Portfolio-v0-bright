@@ -29,7 +29,6 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personData).replace(/</g, "\\u003c") }} />
       <section className="home-hero" aria-labelledby="home-title">
         <div className="home-hero__copy">
-          <SiteMascot />
           <p className="kicker"><span>Portfolio</span> Product · Strategy · Practice</p>
           <h1 id="home-title">Hi, I’m <em>Satavisha.</em></h1>
           <p className="home-hero__intro">
@@ -37,6 +36,9 @@ export default function HomePage() {
             products. Dance is my creative practice outside work.
           </p>
           <Link className="primary-link" href="/work">Explore my work <ArrowRight aria-hidden="true" /></Link>
+        </div>
+        <div className="home-hero__mascot-wrap">
+          <SiteMascot />
         </div>
         <div className="home-portrait">
           <div className="home-portrait__number" aria-hidden="true">01 / 04</div>
