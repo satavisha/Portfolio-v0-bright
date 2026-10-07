@@ -103,11 +103,11 @@ const published = entries.filter((entry) => entry.section !== "drafts" && !entry
 const work = published.filter((entry) => entry.section === "work")
 const dance = published.filter((entry) => entry.section === "dance")
 
-if (published.length !== 12) errors.push("Expected 12 published entries, found " + published.length)
-if (work.length !== 7) errors.push("Expected 7 Work entries, found " + work.length)
+if (published.length !== 13) errors.push("Expected 13 published entries, found " + published.length)
+if (work.length !== 8) errors.push("Expected 8 Work entries, found " + work.length)
 if (dance.length !== 5) errors.push("Expected 5 Dance entries, found " + dance.length)
 if (work.filter((entry) => entry.type === "case-study").length !== 5) errors.push("Expected 5 case studies")
-if (work.filter((entry) => entry.type === "writing").length !== 2) errors.push("Expected 2 writing entries")
+if (work.filter((entry) => entry.type === "writing").length !== 3) errors.push("Expected 3 writing entries")
 if (work.some((entry) => entry.slug.includes("qikfox"))) errors.push("Qikfox must not be published")
 
 const publicContentRoot = path.join(publicRoot, "content")

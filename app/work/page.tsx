@@ -30,7 +30,7 @@ export default async function WorkPage({ searchParams }: { searchParams: Promise
     <main className="index-page page-enter">
       <header className="index-hero">
         <div>
-          <p className="kicker"><span>Selected work</span> 2023—2025</p>
+          <p className="kicker"><span>Selected work</span> 2023—2026</p>
           <h1>Thinking, made <em>tangible.</em></h1>
         </div>
         <p>

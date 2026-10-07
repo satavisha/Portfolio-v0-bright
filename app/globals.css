@@ -641,8 +641,10 @@ img { max-width: 100%; }
   content: "";
   pointer-events: none;
 }
+.article-hero--writing .article-hero__visual { min-height: 0; aspect-ratio: 16 / 9; }
 .article-hero__visual > img { object-fit: cover; }
-.article-hero--case-study .article-hero__visual > img { object-fit: contain; }
+.article-hero--case-study .article-hero__visual > img,
+.article-hero--writing .article-hero__visual > img { object-fit: contain; }
 .article-hero__fallback {
   position: absolute;
   inset: 0;
@@ -764,6 +766,8 @@ img { max-width: 100%; }
   border: 1px solid var(--line-soft);
   background: #fff;
 }
+.article-image--native-600 { max-width: 600px; margin-right: auto; margin-left: auto; }
+.article-image--native-727 { max-width: 727px; margin-right: auto; margin-left: auto; }
 .article-image__caption {
   display: block;
   margin-top: 9px;
