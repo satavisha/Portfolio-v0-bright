@@ -30,7 +30,7 @@ OTT platforms often neglect regional cultures or remain unaffordable for people 
 
 ## My role
 
-Product Manager — end-to-end ownership
+Product Manager: end-to-end ownership
 
 - Led strategy, research, product design, and prototyping.
 - Conducted market research, user surveys, persona creation, and PRD development.
@@ -92,9 +92,7 @@ The product needs accurate translation from English to regional languages and an
 ![Start of the certification workflow](/content/work/lok-learn/certification-flow-1.png)
 
 ![Quiz screen in the certification workflow](/content/work/lok-learn/certification-flow-2.png)
-
 ![Quiz result in the certification workflow](/content/work/lok-learn/certification-flow-3.png)
-
 ![Downloadable certificate in the certification workflow](/content/work/lok-learn/certification-flow-4.png)
 
 The workflow takes a learner from completing a playlist through a quiz to a downloadable certificate.

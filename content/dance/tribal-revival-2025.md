@@ -17,7 +17,7 @@ draft: false
 artifactLinks: []
 ---
 
-**Tribal Revival was a one-of-a-kind festival that united India’s Tribal Fusion Belly Dance community — a gathering I’ll cherish for years to come.**
+**Tribal Revival was a one-of-a-kind festival that united India’s Tribal Fusion Belly Dance community: a gathering I’ll cherish for years to come.**
 
 I had the privilege of learning from two inspiring artists: Nivetha S. and Bindu Bolar.
 

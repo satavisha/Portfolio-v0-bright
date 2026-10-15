@@ -3,7 +3,7 @@ import { getDanceEntries, getEntryHref, getWorkEntries } from "@/lib/content"
 import { SITE_URL } from "@/lib/site"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["", "/work", "/dance", "/about"].map((route) => ({
+  const staticRoutes = ["", "/resume", "/work", "/dance", "/about"].map((route) => ({
     url: `${SITE_URL}${route}`,
     lastModified: new Date(),
     changeFrequency: route === "" ? ("monthly" as const) : ("weekly" as const),

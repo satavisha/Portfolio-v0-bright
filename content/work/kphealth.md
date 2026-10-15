@@ -60,9 +60,9 @@ Estimated first-year development costs:
 | --- | ---: |
 | 2 Android and 2 iOS developers | $600K |
 | Testing, support, sales, and project management | $700K |
-| Marketing — PR, advertising, and SEO | $300K |
+| Marketing: PR, advertising, and SEO | $300K |
 | Product management | $150K |
-| Estimated revenue — 10% of members buying premium at $5/month | $60M |
+| Estimated revenue: 10% of members buying premium at $5/month | $60M |
 
 ![KPHealth return-on-investment model](/content/work/kphealth/roi.png)
 
@@ -115,12 +115,12 @@ The product aims to raise health awareness, encourage healthier lifestyles, and 
 
 ### Pre-launch checklist
 
-1. Legal — review privacy issues.
-2. Marketing — prepare the blog post, release notes, and screenshots.
-3. Engineering — complete testing and launch readiness.
-4. Leadership — communicate the launch plan.
-5. Metrics — define downloads, stability, usage, and retention.
-6. App stores — submit the product for review.
+1. Legal: review privacy issues.
+2. Marketing: prepare the blog post, release notes, and screenshots.
+3. Engineering: complete testing and launch readiness.
+4. Leadership: communicate the launch plan.
+5. Metrics: define downloads, stability, usage, and retention.
+6. App stores: submit the product for review.
 
 ### Risks
 

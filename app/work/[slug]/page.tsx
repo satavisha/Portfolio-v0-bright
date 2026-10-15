@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     alternates: { canonical: url },
     openGraph: {
       type: entry.type === "writing" ? "article" : "website",
-      title: `${entry.title} — Satavisha Mitra`,
+      title: `${entry.title} | Satavisha Mitra`,
       description: entry.summary,
       url,
       images,

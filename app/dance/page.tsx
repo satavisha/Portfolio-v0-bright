@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Performances, movement practice, and community-building stories from Satavisha Mitra’s Tribal Fusion journey.",
   alternates: { canonical: "/dance" },
   openGraph: {
-    title: "Dance — Satavisha Mitra",
+    title: "Dance | Satavisha Mitra",
     description: "Performances, movement practice, and community-building stories from Satavisha Mitra.",
     url: "/dance",
     images: ["/content/dance/olga-meos-tribal-kazakhstan-2025/olga-meos-performance.jpg"],
@@ -25,7 +25,7 @@ export default function DancePage() {
           <h1>Stories held in <em>movement.</em></h1>
         </div>
         <p>
-          Tribal Fusion Belly Dance is where I learn through the body — performing, teaching, travelling, and imagining better ways for the community to connect.
+          Tribal Fusion Belly Dance is where I learn through the body: performing, teaching, travelling, and imagining better ways for the community to connect.
         </p>
       </header>
 

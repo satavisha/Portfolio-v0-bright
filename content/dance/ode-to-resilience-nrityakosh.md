@@ -23,4 +23,4 @@ After months of rigorous practice and countless hours stitching our costumes and
 
 **Tribal Fusion Belly Dance** often blends forms such as American Tribal Style, cabaret belly dance, flamenco, hip hop, and gothic aesthetics to create a mosaic of movement language.
 
-This performance fused temple-style grace with gothic intensity. It told the story of a warrior — defeated yet unbroken — who rises again. An ode to resilience.
+This performance fused temple-style grace with gothic intensity. It told the story of a warrior, defeated yet unbroken, who rises again. An ode to resilience.

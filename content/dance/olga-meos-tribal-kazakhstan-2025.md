@@ -35,4 +35,4 @@ Throughout the festival, I also learned from influential artists in the global T
 
 Those seven days in Astana were magical. Being around such phenomenal dancers, absorbing their wisdom, and watching them perform was overwhelmingly joyful. The highlight was performing on stage with Olga Meos herself.
 
-I returned with a deeper understanding of the dance form, its roots in nature, and how closely it mirrors life — along with a heart full of gratitude and inspiration.
+I returned with a deeper understanding of the dance form, its roots in nature, and how closely it mirrors life, along with a heart full of gratitude and inspiration.

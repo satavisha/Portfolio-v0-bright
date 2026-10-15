@@ -42,6 +42,14 @@ export function MarkdownContent({ body }: { body: string }) {
               </Link>
             )
           },
+          p: ({ node, children }) => {
+            const nodes = (node?.children ?? []).filter(
+              (child) => !(child.type === "text" && child.value.trim() === ""),
+            )
+            const imageRow = nodes.length > 1 && nodes.every((child) => child.type === "element" && child.tagName === "img")
+
+            return imageRow ? <span className="article-image-row">{children}</span> : <p>{children}</p>
+          },
           img: ({ src = "", alt = "" }) => {
             const metadata = articleImageMetadata[src]
             const className = ["article-image", metadata?.className].filter(Boolean).join(" ")

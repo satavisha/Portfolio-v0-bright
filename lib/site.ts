@@ -9,6 +9,7 @@ export const SITE_URL = configuredSiteUrl || "https://satavisha.xyz"
 
 export const NAVIGATION = [
   { href: "/", label: "Home" },
+  { href: "/resume", label: "Resume" },
   { href: "/work", label: "Work" },
   { href: "/dance", label: "Dance" },
   { href: "/about", label: "About" },

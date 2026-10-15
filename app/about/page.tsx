@@ -6,9 +6,9 @@ import { SOCIAL_LINKS } from "@/lib/site"
 
 export const metadata: Metadata = {
   title: "About",
-  description: "About Satavisha Mitra — product manager, Tribal Fusion Belly Dancer, dance educator, and mythology enthusiast.",
+  description: "About Satavisha Mitra: product manager, Tribal Fusion Belly Dancer, dance educator, and mythology enthusiast.",
   alternates: { canonical: "/about" },
-  openGraph: { title: "About — Satavisha Mitra", url: "/about", images: ["/images/profile.jpeg"] },
+  openGraph: { title: "About | Satavisha Mitra", url: "/about", images: ["/images/profile.jpeg"] },
 }
 
 export default function AboutPage() {
@@ -23,7 +23,7 @@ export default function AboutPage() {
               I’m a developer turned product manager. I bring technical understanding into product strategy and enjoy working from research and problem framing through product definition and prototyping.
             </p>
             <p>
-              I’m also a Tribal Fusion Belly Dancer, dance educator, and mythology nerd. Raised in a culturally rich home by an Indian classical singer, I was immersed in the arts early — painting, piano, and, eventually, the form that moved me most: dance.
+              I’m also a Tribal Fusion Belly Dancer, dance educator, and mythology nerd. Raised in a culturally rich home by an Indian classical singer, I was immersed in the arts early: painting, piano, and, eventually, the form that moved me most: dance.
             </p>
             <p>
               Since discovering Tribal Fusion in 2016, my journey has taken me across India and beyond to learn, perform, and teach. It still feels like a magical forest whose edges I’m only beginning to explore.
@@ -32,7 +32,7 @@ export default function AboutPage() {
               Outside dance, I love mythology, Devdutt Pattanaik’s work, and illustrating stories.
             </p>
           </div>
-          <Link className="primary-link" href="/Satavisha_Mitra_CV.pdf" download="Satavisha_Mitra_CV.pdf">
+          <Link className="primary-link" href="/Satavisha_Mitra_Product_Lead_CV.pdf" download="Satavisha_Mitra_Product_Lead_CV.pdf">
             Download résumé <Download aria-hidden="true" />
           </Link>
         </div>

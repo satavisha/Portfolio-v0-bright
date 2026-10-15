@@ -1,8 +1,8 @@
 ---
-type: "writing"
+type: "case-study"
 slug: "gullak-product-teardown"
 title: "Gullak: The Key is Trust | A Product Teardown"
-subtitle: "Where a digital gold savings journey loses trust—and how human support could restore it"
+subtitle: "Where a digital gold savings journey loses trust, and how human support could restore it"
 summary: "A product teardown of Gullak’s digital gold experience, tracing price-transparency friction and a support workflow designed to rebuild trust at critical moments."
 tags:
   - "Product teardown"

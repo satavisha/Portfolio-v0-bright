@@ -23,6 +23,6 @@ Dance naturally releases dopamine, yet we rarely tap into its full potential for
 
 I imagine an app that encourages freestyle movement. It would guide people with minimal prompts, help them find their natural rhythm, and reward them simply for showing up and moving.
 
-The idea came during a trip to Kazakhstan for Tribal KZ, where I attended a workshop by Illan Rivière. With a few minimal yet intentional cues, Illan created a space where movement became meditative — almost hypnotic.
+The idea came during a trip to Kazakhstan for Tribal KZ, where I attended a workshop by Illan Rivière. With a few minimal yet intentional cues, Illan created a space where movement became meditative, almost hypnotic.
 
 That experience showed me how dance, when approached without structure or performance pressure, can be profoundly liberating.
