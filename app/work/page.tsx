@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const filters: { label: string; value: WorkFilter; href: string }[] = [
   { label: "All", value: "all", href: "/work" },
   { label: "Case Studies", value: "case-study", href: "/work?type=case-study" },
-  { label: "Notes", value: "writing", href: "/work?type=writing" },
+  { label: "Writing", value: "writing", href: "/work?type=writing" },
 ]
 
 export default async function WorkPage({ searchParams }: { searchParams: Promise<{ type?: string | string[] }> }) {

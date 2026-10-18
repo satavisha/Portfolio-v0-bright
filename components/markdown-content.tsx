@@ -25,6 +25,23 @@ const articleImageMetadata: Record<
     sizes: "(max-width: 620px) calc(100vw - 16px), (max-width: 632px) calc(100vw - 32px), 600px",
     className: "article-image--native-600",
   },
+  "/content/work/ai-benchmarks-guide/mmlu-class-5.jpeg": {
+    width: 577,
+    height: 433,
+    sizes: "(max-width: 620px) calc(100vw - 16px), (max-width: 609px) calc(100vw - 32px), 577px",
+    className: "article-image--native-577",
+  },
+  "/content/work/ai-benchmarks-guide/prompt-injection.jpeg": {
+    width: 700,
+    height: 429,
+    sizes: "(max-width: 620px) calc(100vw - 16px), (max-width: 732px) calc(100vw - 32px), 700px",
+    className: "article-image--native-700",
+  },
+  "/content/work/ai-benchmarks-guide/cost-per-resolution.png": {
+    width: 1672,
+    height: 941,
+    sizes: "(max-width: 767px) calc(100vw - 32px), 820px",
+  },
 }
 
 export function MarkdownContent({ body }: { body: string }) {

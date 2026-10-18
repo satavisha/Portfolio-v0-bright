@@ -791,6 +791,8 @@ img { max-width: 100%; }
 .article-image-row .article-image { margin: 0; }
 .article-image--native-600 { max-width: 600px; margin-right: auto; margin-left: auto; }
 .article-image--native-727 { max-width: 727px; margin-right: auto; margin-left: auto; }
+.article-image--native-577 { max-width: 577px; margin-right: auto; margin-left: auto; }
+.article-image--native-700 { max-width: 700px; margin-right: auto; margin-left: auto; }
 .article-image__caption {
   display: block;
   margin-top: 9px;
