@@ -21,7 +21,6 @@ export default function DancePage() {
     <main className="index-page dance-index page-enter">
       <header className="index-hero index-hero--dance">
         <div>
-          <p className="kicker"><span>Creative practice</span> Movement · Community</p>
           <h1>Stories held in <em>movement.</em></h1>
         </div>
         <p>

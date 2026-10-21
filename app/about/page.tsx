@@ -16,7 +16,6 @@ export default function AboutPage() {
     <main className="about-page page-enter">
       <header className="about-hero">
         <div className="about-hero__copy">
-          <p className="kicker"><span>About</span> Product × Movement</p>
           <h1>Curious about systems.<br /><em>Moved by stories.</em></h1>
           <div className="about-intro">
             <p>
