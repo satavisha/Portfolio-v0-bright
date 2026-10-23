@@ -42,6 +42,18 @@ const articleImageMetadata: Record<
     height: 941,
     sizes: "(max-width: 767px) calc(100vw - 32px), 820px",
   },
+  "/content/dance/tfbd-map-community-building/landing-page-sketch.jpeg": {
+    width: 1600,
+    height: 996,
+    sizes: "(max-width: 620px) calc(100vw - 32px), 410px",
+    className: "article-image--stack-on-mobile",
+  },
+  "/content/dance/tfbd-map-community-building/flow-sketch.jpeg": {
+    width: 1600,
+    height: 912,
+    sizes: "(max-width: 620px) calc(100vw - 32px), 410px",
+    className: "article-image--stack-on-mobile",
+  },
 }
 
 export function MarkdownContent({ body }: { body: string }) {
@@ -73,13 +85,16 @@ export function MarkdownContent({ body }: { body: string }) {
 
             return (
               <span className={className}>
-                <Image
-                  src={src}
-                  alt={alt}
-                  width={metadata?.width ?? 1600}
-                  height={metadata?.height ?? 1000}
-                  sizes={metadata?.sizes ?? "(max-width: 767px) calc(100vw - 32px), 820px"}
-                />
+                <a className="article-image__link" href={src} target="_blank" rel="noreferrer">
+                  <Image
+                    src={src}
+                    alt={alt}
+                    width={metadata?.width ?? 1600}
+                    height={metadata?.height ?? 1000}
+                    sizes={metadata?.sizes ?? "(max-width: 767px) calc(100vw - 32px), 820px"}
+                  />
+                  <span className="sr-only"> (open full size in a new tab)</span>
+                </a>
                 {alt && <span className="article-image__caption">{alt}</span>}
               </span>
             )

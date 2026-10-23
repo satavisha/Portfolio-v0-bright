@@ -67,6 +67,10 @@ for (const section of sections) {
       errors.push(context + ": published content contains a public Notion URL")
     }
 
+    if (data.liveLink && (!data.liveLink.label || !/^https:\/\//.test(data.liveLink.href ?? ""))) {
+      errors.push(context + ": liveLink needs a label and an https href")
+    }
+
     if (typeof data.cover === "string") requireLocalAsset(data.cover, context + " cover")
 
     for (const artifact of data.artifactLinks ?? []) {

@@ -3,6 +3,7 @@ import Link from "next/link"
 import { ArrowLeft, ArrowRight } from "lucide-react"
 import { ArtifactLinks } from "@/components/artifact-links"
 import { ContentCard } from "@/components/content-card"
+import { LiveNotice } from "@/components/live-notice"
 import { MarkdownContent } from "@/components/markdown-content"
 import {
   ContentEntry,
@@ -60,7 +61,7 @@ export function ContentArticle({ entry }: { entry: ContentEntry }) {
           <span aria-current="page">{entry.title}</span>
         </nav>
 
-        <header className={`article-hero article-hero--${entry.type}`}>
+        <header className={`article-hero article-hero--${entry.type}${entry.cover ? "" : " article-hero--text"}`}>
           <div className="article-hero__copy">
             <div className="article-hero__meta">
               <span>{getEntryLabel(entry.type)}</span>
@@ -78,8 +79,8 @@ export function ContentArticle({ entry }: { entry: ContentEntry }) {
             <ArtifactLinks links={entry.artifactLinks} />
           </div>
 
-          <div className="article-hero__visual">
-            {entry.cover ? (
+          {entry.cover && (
+            <div className="article-hero__visual">
               <Image
                 src={entry.cover}
                 alt={entry.coverAlt || ""}
@@ -87,18 +88,14 @@ export function ContentArticle({ entry }: { entry: ContentEntry }) {
                 priority
                 sizes="(max-width: 899px) calc(100vw - 32px), 46vw"
               />
-            ) : (
-              <div className="article-hero__fallback" aria-hidden="true">
-                <span>{getEntryLabel(entry.type)}</span>
-                <strong>{entry.title}</strong>
-                <i />
-              </div>
-            )}
-          </div>
+            </div>
+          )}
         </header>
 
         <MarkdownContent body={entry.body} />
       </article>
+
+      {entry.liveLink && <LiveNotice link={entry.liveLink} />}
 
       <nav className="article-pagination" aria-label={`${section} pagination`}>
         {previous ? (

@@ -12,6 +12,11 @@ export type ArtifactLink = {
   kind: ArtifactKind
 }
 
+export type LiveLink = {
+  label: string
+  href: string
+}
+
 export type ContentEntry = {
   type: ContentType
   slug: string
@@ -26,6 +31,7 @@ export type ContentEntry = {
   featured: boolean
   featuredOrder?: number
   artifactLinks: ArtifactLink[]
+  liveLink: LiveLink | null
   draft: boolean
   body: string
   readingTime: number
@@ -64,6 +70,7 @@ function readEntry(filePath: string): ContentEntry {
     featured: Boolean(data.featured),
     featuredOrder: data.featuredOrder,
     artifactLinks: data.artifactLinks ?? [],
+    liveLink: data.liveLink ?? null,
     draft: Boolean(data.draft),
     body: content.trim(),
     readingTime: Math.max(1, Math.ceil(wordsIn(content) / 225)),

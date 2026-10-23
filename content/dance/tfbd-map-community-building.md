@@ -8,16 +8,16 @@ tags:
   - "Community"
   - "Product concept"
   - "TFBD"
-cover: "/content/dance/tfbd-map-community-building/cover.png"
-coverAlt: "Gold snake emblem for TFBD Map on a dark background"
+cover: null
+coverAlt: null
 createdAt: "2025-07-27"
 updatedAt: "2025-08-22"
 featured: false
 draft: false
-artifactLinks:
-  - label: "Open prototype"
-    href: "https://satavisha.github.io/TFBDMap2/"
-    kind: "prototype"
+artifactLinks: []
+liveLink:
+  label: "TFBD Map is live here:"
+  href: "https://tfbdmap.vercel.app/"
 ---
 
 As a Tribal Fusion Belly Dance enthusiast, I want to attend global festivals and stay informed about events happening around the world.
@@ -25,6 +25,14 @@ As a Tribal Fusion Belly Dance enthusiast, I want to attend global festivals and
 > The TFBD community is underserved and scattered, with no single platform offering comprehensive information.
 
 Staying current means following multiple Instagram pages and relying heavily on friends’ recommendations. There is no one-stop solution for discovering everything in one place.
+
+## Why make it?
+
+- **Scattered information:** Dancers currently track individual Instagram and Facebook pages.
+- **No filters:** There is no global calendar filtered by country, event type, or date.
+- **No community hub:** The TFBD world lacks a central digital ecosystem built around its needs.
+
+## The idea
 
 TFBD Map is an app concept that collects event data in real time and presents it through a clean dashboard. It begins with:
 
@@ -35,7 +43,6 @@ TFBD Map is an app concept that collects event data in real time and presents it
 - Details about special guests.
 
 ![TFBD Map landing page sketch for mobile and web](/content/dance/tfbd-map-community-building/landing-page-sketch.jpeg)
-
 ![TFBD Map events and dancers flow sketch](/content/dance/tfbd-map-community-building/flow-sketch.jpeg)
 
 Eventually, I imagine it becoming a home for the global TFBD community: a place where dancers can find teachers, book classes, and collaborate.
@@ -48,14 +55,10 @@ Artists might post requests such as:
 
 The goal is a platform that connects the TFBD community worldwide.
 
-## Why make it?
-
-- **Scattered information:** Dancers currently track individual Instagram and Facebook pages.
-- **No filters:** There is no global calendar filtered by country, event type, or date.
-- **No community hub:** The TFBD world lacks a central digital ecosystem built around its needs.
-
 ## Plan
 
 1. **Phase 1:** Launch a real-time event dashboard with a web-scraping backend.
 2. **Phase 2:** Add scheduling for teachers and artists.
 3. **Phase 3:** Enable collaboration posts and community features.
+
+Phase 1 is live: explore it at [tfbdmap.vercel.app](https://tfbdmap.vercel.app/).
