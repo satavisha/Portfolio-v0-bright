@@ -8,8 +8,9 @@ tags:
   - "Community"
   - "Product concept"
   - "TFBD"
-cover: null
-coverAlt: null
+cover: "/content/dance/tfbd-map-community-building/cover-collage.jpeg"
+coverAlt: "Hand-drawn TFBD Map sketches: landing page, events flow and dancers flow"
+heroCover: false
 createdAt: "2025-07-27"
 updatedAt: "2025-08-22"
 featured: false

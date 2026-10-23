@@ -27,6 +27,7 @@ export function ContentArticle({ entry }: { entry: ContentEntry }) {
   const related = getRelatedEntries(entry)
   const { previous, next } = getEntryNeighbours(entry)
   const url = `${SITE_URL}${getEntryHref(entry)}`
+  const heroImage = entry.heroCover ? entry.cover : null
   const structuredData = {
     "@context": "https://schema.org",
     "@type": entry.type === "writing" ? "Article" : "CreativeWork",
@@ -61,7 +62,7 @@ export function ContentArticle({ entry }: { entry: ContentEntry }) {
           <span aria-current="page">{entry.title}</span>
         </nav>
 
-        <header className={`article-hero article-hero--${entry.type}${entry.cover ? "" : " article-hero--text"}`}>
+        <header className={`article-hero article-hero--${entry.type}${heroImage ? "" : " article-hero--text"}`}>
           <div className="article-hero__copy">
             <div className="article-hero__meta">
               <span>{getEntryLabel(entry.type)}</span>
@@ -79,10 +80,10 @@ export function ContentArticle({ entry }: { entry: ContentEntry }) {
             <ArtifactLinks links={entry.artifactLinks} />
           </div>
 
-          {entry.cover && (
+          {heroImage && (
             <div className="article-hero__visual">
               <Image
-                src={entry.cover}
+                src={heroImage}
                 alt={entry.coverAlt || ""}
                 fill
                 priority

@@ -26,6 +26,7 @@ export type ContentEntry = {
   tags: string[]
   cover: string | null
   coverAlt: string | null
+  heroCover: boolean
   createdAt: string
   updatedAt: string
   featured: boolean
@@ -65,6 +66,7 @@ function readEntry(filePath: string): ContentEntry {
     tags: data.tags ?? [],
     cover: data.cover ?? null,
     coverAlt: data.coverAlt ?? null,
+    heroCover: data.heroCover !== false,
     createdAt: data.createdAt,
     updatedAt: data.updatedAt,
     featured: Boolean(data.featured),
