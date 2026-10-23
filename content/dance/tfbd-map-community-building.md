@@ -34,7 +34,9 @@ TFBD Map is an app concept that collects event data in real time and presents it
 - Registration links.
 - Details about special guests.
 
-![TFBD Map event dashboard concept](/content/dance/tfbd-map-community-building/dashboard-mockup.png)
+![TFBD Map landing page sketch for mobile and web](/content/dance/tfbd-map-community-building/landing-page-sketch.jpeg)
+
+![TFBD Map events and dancers flow sketch](/content/dance/tfbd-map-community-building/flow-sketch.jpeg)
 
 Eventually, I imagine it becoming a home for the global TFBD community: a place where dancers can find teachers, book classes, and collaborate.
 
